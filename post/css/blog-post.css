@@ -8,6 +8,10 @@ body {
   padding-top: 54px;
 }
 
+.card {
+  background-color: #E8E8EE;
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
