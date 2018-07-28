@@ -1,15 +1,91 @@
 /*!
- * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ *
+ * Modifications made to change basic color scheme of boostrap template.
+ * Jared M Schooley
+ *
  */
 
 body {
   padding-top: 54px;
+  background-color: #A5A5AF;
+}
+
+a {
+  color: #D9B310;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: #1D2731;
+}
+
+hr.style {
+  border-top: 1px solid #6E7376;
+  text-align: center;
+}
+hr.style:after {
+  content: '§';
+  display: inline-block;
+  position: relative;
+  top: -14px;
+  padding: 0 10px;
+  background: #A5A5AF;
+  color: #3C3C3C;
+  font-size: 18px;
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+
+hr {
+  border-top: 1px solid #6E7376;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #AB9353;
+  border-color: #AB9353;
+  transition: 0.4s;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #1D2731;
+  border-color: #1D2731;
+  transition: 0.4s;
 }
 
 .card {
-  background-color: #E8E8EE;
+  background-color: #286DA8;
+  border-color: #1D2731;
+}
+
+.bg-dark {
+  color: #0B3C5D;
+  background: #0B3C5D;
+}
+
+.navbar-dark {
+  color: #0B3C5D;
+  background: #0B3C5D;
+}
+
+.py-5 {
+  color: #0B3C5D;
+  background: #0B3C5D;
+}
+
+.page-link {
+  background-color: #AB9353;
+  border-color: #AB9353;
+  color: #FFFFFF;
+}
+
+.page-link:hover, .page-link:focus .page-link:active {
+  color: #FFFFFF;
+  background-color: #1D2731;
+  border-color: #1D2731;
+  transition: 0.4s;
 }
 
 @media (min-width: 992px) {
