@@ -1,11 +1,11 @@
 /*!
- * Start Bootstrap - Blog Post (https://startbootstrap.com/template-overviews/blog-post)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
+ *
+ * Modifications made to change basic color scheme of boostrap template.
+ * Jared M Schooley
+ *
  */
 
 body {
-<<<<<<< HEAD
     padding-top: 54px;
     background-color: #A5A5AF;
 }
@@ -108,13 +108,6 @@ hr {
     left: 0;
     width: 100%;
     height: 100%;
-=======
-  padding-top: 54px;
-}
-
-.card {
-  background-color: #E8E8EE;
->>>>>>> parent of bb2f088... Lots of changes, added a test news page, a decor icon in nav, changed color scheme (css), and added some 'flair' - Mainly all CSS changes
 }
 
 @media (min-width: 992px) {
