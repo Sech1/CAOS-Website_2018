@@ -1,11 +1,11 @@
 /*!
- *
- * Modifications made to change basic color scheme of boostrap template.
- * Jared M Schooley
- *
+ * Start Bootstrap - Blog Post (https://startbootstrap.com/template-overviews/blog-post)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
  */
 
 body {
+<<<<<<< HEAD
     padding-top: 54px;
     background-color: #A5A5AF;
 }
@@ -90,8 +90,48 @@ hr {
     transition: 0.4s;
 }
 
+/* Responsive iFrame */
+
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 75%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+=======
+  padding-top: 54px;
+}
+
+.card {
+  background-color: #E8E8EE;
+>>>>>>> parent of bb2f088... Lots of changes, added a test news page, a decor icon in nav, changed color scheme (css), and added some 'flair' - Mainly all CSS changes
+}
+
 @media (min-width: 992px) {
     body {
         padding-top: 56px;
+    }
+}
+
+@media (max-width: 500px) {
+    .big-container {
+        display: none;
+    }
+}
+
+@media (min-width: 500px) {
+    .small-container {
+        display: none;
+        max-width: 500px;
     }
 }
