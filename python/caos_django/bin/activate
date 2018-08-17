@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/caos/html/beta/2018_site/CAOS_Website-2018/python/caos_django"
+VIRTUAL_ENV="/caos/html/CAOS-Website_2018/python/caos_django"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
