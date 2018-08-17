@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '#5=s$uod&46q597bfbgt%1fwbg&w39$@66&2sniggdmbr5m3tc'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['caos.cs.siue.edu','localhost']
 
