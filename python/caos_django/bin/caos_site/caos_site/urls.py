@@ -13,10 +13,13 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.urls import include, path
 from . import views
+from caos_site.views import *
 from django.conf.urls import *
 from django.views.generic import TemplateView
 
 urlpatterns = [
-url(r'^$', views.index, name='index'),
+    url(r'^$', views.index, name='index'),
+    #url(r'^index/', include(("caos_site.views.index", 'index'), namespace='index')),
 ]
