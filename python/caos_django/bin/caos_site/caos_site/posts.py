@@ -4,7 +4,7 @@ from django.template import loader
 
 # Create your views here.
 
-def newsOCI(request):
+def news_oci(request):
     template = loader.get_template('/post/postContent/03-05-2018_eHacks_OCI.html')
     context = {
     }
