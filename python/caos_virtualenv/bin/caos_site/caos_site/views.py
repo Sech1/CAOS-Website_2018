@@ -18,6 +18,4 @@ def page0(request):
     return HttpResponse(template.render(context, request))
 
 def news_oci(request):
-    template = loader.get_template('/postContent/eHacks_oci.html')
-    context = {}
-    return HttpResponse(template.render(context, request))
+    return render(request, "")
