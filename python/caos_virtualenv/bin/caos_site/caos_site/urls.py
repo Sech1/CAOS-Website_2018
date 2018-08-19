@@ -13,15 +13,12 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf.urls import patterns, include, url
+
+# Uncomment the next two lines to enable the admin:
 from django.contrib import admin
-from django.urls import path
-from . import views
-from django.conf.urls import *
-from django.views.generic import TemplateView
 
 urlpatterns = [
-    url(r'^$', views.index, name='index'),
-    url(r'^page0/$', views.page0, name='page0'),
-    url(r'^eHacks_OCI/$', views.news_oci, name='eHacks_OCI'),
+    url(r'^', include('pages.urls', namespace='pages')),
     #url(r'^index/', include(("caos_site.views.index", 'index'), namespace='index')),
 ]
