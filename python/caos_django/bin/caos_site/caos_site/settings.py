@@ -124,4 +124,4 @@ USE_TZ = True
 
 STATIC_ROOT = '/caos/html/CAOS-Website_2018/python/caos_django/bin/caos_site'
 STATIC_URL = '/static/'
-STATICFILES_DIRS = ['/caos/html/CAOS-Website_2018/python/caos_django/bin/caos_site/pages']
+STATICFILES_DIRS = ['/caos/html/CAOS-Website_2018/python/caos_django/bin/caos_site/caos_site']
