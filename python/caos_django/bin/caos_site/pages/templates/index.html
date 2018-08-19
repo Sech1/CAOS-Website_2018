@@ -14,6 +14,8 @@
     <!-- Bootstrap core CSS -->
     <link href="{% static 'css/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
     <link href="{% static 'css/blog-home.css' %}" rel="stylesheet">
@@ -73,7 +75,7 @@
             {% endblock %}
 
             {% block content %}
-            {%  endblock %}
+            {% endblock %}
 
             <!-- Pagination -->
             {% block pagination %}
@@ -163,8 +165,9 @@
     </div>
     <div class="container">
         <p class="m-0 text-center text-white">Powered By
-            <a href="https://www.djangoproject.com" target="_blank"><img src="{% static 'img/django-339744_960_720.png' %}"
-                                                                         height="36" width="104"></a></p>
+            <a href="https://www.djangoproject.com" target="_blank"><img
+                    src="{% static 'img/django-339744_960_720.png' %}"
+                    height="36" width="104"></a></p>
     </div>
     <!-- /.container -->
 </footer>
