@@ -2,12 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee8e0f0b-b6dc-40dc-9d77-6b06fe1be327" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/posts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/templates/post/postContent/03-05-2018_eHacks_OCI.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/css/round-about.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/officers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/vendor/jquery/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/vendor/jquery/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/vendor/jquery/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/post/page0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/views.py" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,15 +97,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/post/03-05-2018_eHacks_OCI.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,37 +107,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/post/page0.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/templates/post/postContent/03-05-2018_eHacks_OCI.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
+            <state relative-caret-position="960">
               <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="83" column="26" lean-forward="true" selection-start-line="75" selection-start-column="12" selection-end-line="83" selection-end-column="26" />
+              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -154,7 +162,7 @@
         <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="54" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="54" />
+              <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="54" />
               <folding>
                 <element signature="e#633#670#0" expanded="true" />
               </folding>
@@ -180,8 +188,8 @@
         <option value="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/views.py" />
         <option value="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/urls.py" />
         <option value="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/templates/post/postContent/03-05-2018_eHacks_OCI.html" />
-        <option value="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/templates/home.html" />
         <option value="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/home.html" />
+        <option value="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/templates/home.html" />
       </list>
     </option>
   </component>
@@ -198,8 +206,6 @@
       <path value="$PROJECT_DIR$/post/package.json" />
       <path value="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/templates/officers/package.json" />
       <path value="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/templates/package.json" />
-      <path value="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/officers/package.json" />
-      <path value="$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/package.json" />
     </packageJsonPaths>
   </component>
   <component name="PhpServers">
@@ -273,59 +279,6 @@
               <item name="caos_site" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CAOS_Website-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CAOS_Website-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="caos_django" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-              <item name="caos_site" type="462c0819:PsiDirectoryNode" />
-              <item name="caos_site" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="post" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CAOS_Website-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CAOS_Website-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="caos_django" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-              <item name="caos_site" type="462c0819:PsiDirectoryNode" />
-              <item name="caos_site" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="post" type="462c0819:PsiDirectoryNode" />
-              <item name="postContent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CAOS_Website-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CAOS_Website-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="caos_django" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-              <item name="caos_site" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CAOS_Website-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CAOS_Website-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="caos_django" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-              <item name="caos_site" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CAOS_Website-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CAOS_Website-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="caos_django" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-              <item name="caos_site" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="post" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -366,12 +319,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534628189573</updated>
-      <workItem from="1534628191190" duration="11276000" />
+      <workItem from="1534628191190" duration="11392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11276000" />
+    <option name="totallyTimeSpent" value="11392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -441,9 +394,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <marker date="1534612756985" expanded="true" signature="108:109" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -461,24 +411,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/post/page0.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-516">
           <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post/03-05-2018_eHacks_OCI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="172" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="172" />
         </state>
       </provider>
     </entry>
@@ -490,13 +426,6 @@
             <element signature="e#0#35#0" expanded="true" />
             <marker date="1534658388970" expanded="true" signature="397:532" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -517,10 +446,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/post/page0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="54" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="54" />
+          <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="54" />
           <folding>
             <element signature="e#633#670#0" expanded="true" />
           </folding>
@@ -529,15 +472,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/templates/post/postContent/03-05-2018_eHacks_OCI.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
+        <state relative-caret-position="960">
           <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/pages/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/post/03-05-2018_eHacks_OCI.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+        <state relative-caret-position="753">
+          <caret line="172" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
         </state>
       </provider>
     </entry>
