@@ -55,7 +55,10 @@ ROOT_URLCONF = 'caos_site.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            '/caos/html/CAOS-Website_2018/python/caos_virtualenv/bin/caos_site/caos_site',
+            '/caos/html/CAOS-Website_2018/python/caos_virtualenv/bin/caos_site/'
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -69,8 +72,8 @@ TEMPLATES = [
 ]
 
 TEMPLATE_DIRS = (
-        Temp_Path +"/template"
-),
+    os.path.join(SETTINGS_PATH, 'templates'),
+)
 
 WSGI_APPLICATION = 'caos_site.wsgi.application'
 
