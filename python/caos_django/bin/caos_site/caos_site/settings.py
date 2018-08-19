@@ -68,7 +68,9 @@ TEMPLATES = [
     },
 ]
 
-TEMPLATE_DIRS = (Temp_Path +"/templates"),
+TEMPLATE_DIRS = (
+    os.path.join(BASE_DIR, 'templates'),
+)
 
 WSGI_APPLICATION = 'caos_site.wsgi.application'
 
