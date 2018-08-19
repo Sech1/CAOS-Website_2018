@@ -16,7 +16,6 @@ Including another URLconf
 from django.urls import include, path
 from . import views
 from . import posts
-from caos_site.views import *
 from django.conf.urls import *
 from django.views.generic import TemplateView
 
