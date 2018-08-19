@@ -10,7 +10,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
-Temp_Path = os.path.realpath('.')
+PWD = os.path.dirname(os.path.realpath(__file__ ))
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -69,7 +69,10 @@ TEMPLATES = [
 ]
 
 TEMPLATE_DIRS = (
-    os.path.join(BASE_DIR, 'templates'),
+    # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
+    # Always use forward slashes, even on Windows.
+    # Don't forget to use absolute paths, not relative paths.
+    os.path.join(PWD, 'templates'),
 )
 
 WSGI_APPLICATION = 'caos_site.wsgi.application'

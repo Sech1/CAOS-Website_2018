@@ -18,7 +18,7 @@ def page0(request):
     return HttpResponse(template.render(context, request))
 
 def news_oci(request):
-    template = loader.get_template('/post/eHacks_OCI.html')
+    template = loader.get_template('/post/postContent/eHacks_OCI.html')
     context = {
     }
     return HttpResponse(template.render(context, request))
