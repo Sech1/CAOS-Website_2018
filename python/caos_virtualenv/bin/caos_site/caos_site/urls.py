@@ -19,6 +19,6 @@ from django.conf.urls import *
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^', include('pages.urls', namespace='pages')),
+    url(r'^', include(('pages.urls', 'pages'), namespace='pages')),
     #url(r'^index/', include(("caos_site.views.index", 'index'), namespace='index')),
 ]
