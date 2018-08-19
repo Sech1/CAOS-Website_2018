@@ -20,7 +20,7 @@
         <h2 class="card-title">OCI - Highlights FROM SIUE'S {eHacks} Hackathon</h2>
         <p class="card-text">We were proud to sponsor {eHacks}, a hackathon in which teams of students
             competed to build innovative digital products over the course of 36 hours.</p>
-        <a href="{% url 'eHacks_OCI' %}" class="btn btn-primary">Read More
+        <a href="{% url 'pages:eHacks_OCI' %}" class="btn btn-primary">Read More
             <span><i class="far fa-caret-square-right"></i></span>
         </a>
     </div>
@@ -70,7 +70,7 @@
 {% block pagination %}
 <ul class="pagination justify-content-center mb-4">
     <li class="page-item">
-        <a class="page-link" href="{% url 'page0' %}"><span><i class="fas fa-long-arrow-alt-left"></i></span> Older</a>
+        <a class="page-link" href="{% url 'pages:page0' %}"><span><i class="fas fa-long-arrow-alt-left"></i></span> Older</a>
     </li>
     <li class="page-item disabled">
         <a class="page-link" href="#">Newer <span><i class="fas fa-long-arrow-alt-right"></i></span></a>
