@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-TEMPLATE_DIRS = Temp_Path +"/templates"
+TEMPLATE_DIRS = (Temp_Path +"/templates"),
 
 WSGI_APPLICATION = 'caos_site.wsgi.application'
 
