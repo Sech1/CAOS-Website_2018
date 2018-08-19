@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee8e0f0b-b6dc-40dc-9d77-6b06fe1be327" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/posts.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/posts.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/views.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,14 +23,14 @@
         <counts>
           <entry key="css" value="3" />
           <entry key="html" value="19" />
-          <entry key="py" value="13" />
+          <entry key="py" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="3" />
           <entry key="HTML" value="19" />
-          <entry key="Python" value="13" />
+          <entry key="Python" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -96,15 +94,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
@@ -119,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="345">
+              <caret line="23" column="58" lean-forward="true" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
                 <marker date="1534664803648" expanded="true" signature="329:464" ph="..." />
@@ -129,7 +118,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/posts.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -139,6 +128,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -165,9 +163,9 @@
         <option value="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/templates/post/postContent/03-05-2018_eHacks_OCI.html" />
         <option value="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/urls.py" />
         <option value="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/templates/post/postContent/eHacks_OCI.html" />
-        <option value="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/settings.py" />
         <option value="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/views.py" />
         <option value="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/posts.py" />
+        <option value="$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/settings.py" />
       </list>
     </option>
   </component>
@@ -338,12 +336,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534628189573</updated>
-      <workItem from="1534628191190" duration="16086000" />
+      <workItem from="1534628191190" duration="16467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16086000" />
+    <option name="totallyTimeSpent" value="16467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -513,31 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/templates/post/postContent/eHacks_OCI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1534664803648" expanded="true" signature="329:464" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -550,6 +523,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/posts.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/templates/post/postContent/eHacks_OCI.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="58" lean-forward="true" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1534664803648" expanded="true" signature="329:464" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/caos_django/bin/caos_site/caos_site/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
