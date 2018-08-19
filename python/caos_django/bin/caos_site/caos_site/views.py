@@ -13,7 +13,7 @@ def index(request):
     return HttpResponse(template.render(context, request))
 
 def page0(request):
-    template = loader.get_template('page0.html')
+    template = loader.get_template('post/page0.html')
     context = {
     }
     return HttpResponse(template.render(context, request))
