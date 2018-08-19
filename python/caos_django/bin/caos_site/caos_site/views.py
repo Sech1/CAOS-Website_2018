@@ -16,3 +16,9 @@ def page0(request):
     context = {
     }
     return HttpResponse(template.render(context, request))
+
+def news_oci(request):
+    template = loader.get_template('/post/postContent/03-05-2018_eHacks_OCI.html')
+    context = {
+    }
+    return HttpResponse(template.render(context, request))
