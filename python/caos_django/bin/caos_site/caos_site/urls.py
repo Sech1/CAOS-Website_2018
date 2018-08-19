@@ -21,5 +21,6 @@ from django.views.generic import TemplateView
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
+    url(r'^$', views.page0, name='page0'),
     #url(r'^index/', include(("caos_site.views.index", 'index'), namespace='index')),
 ]

@@ -11,3 +11,9 @@ def index(request):
         'test2' : ['1','2','3','4','5'],
         }
     return HttpResponse(template.render(context, request))
+
+def page0(request):
+    template = loader.get_template('/caos/html/CAOS-Website_2018/python/caos_django/bin/caos_site/pages/templates/post/page0.html')
+    context = {
+    }
+    return HttpResponse(template.render(context, request))
