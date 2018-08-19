@@ -57,7 +57,10 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             '/caos/html/CAOS-Website_2018/python/caos_virtualenv/bin/caos_site/caos_site',
-            '/caos/html/CAOS-Website_2018/python/caos_virtualenv/bin/caos_site/'
+            '/caos/html/CAOS-Website_2018/python/caos_virtualenv/bin/caos_site/',
+            '/caos/html/CAOS-Website_2018/python/caos_virtualenv/bin/caos_site/pages'
+            '/caos/html/CAOS-Website_2018/python/caos_virtualenv/bin/caos_site/caos_site/templates'
+
         ],
         'APP_DIRS': True,
         'OPTIONS': {
