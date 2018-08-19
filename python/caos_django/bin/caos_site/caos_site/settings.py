@@ -67,6 +67,8 @@ TEMPLATES = [
     },
 ]
 
+TEMPLATE_DIRS = ('/caos/html/CAOS-Website_2018/python/caos_django/bin/caos_site/pages/templates' )
+
 WSGI_APPLICATION = 'caos_site.wsgi.application'
 
 
