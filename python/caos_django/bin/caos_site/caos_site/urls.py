@@ -15,13 +15,12 @@ Including another URLconf
 """
 from django.urls import include, path
 from . import views
-from . import posts
 from django.conf.urls import *
 from django.views.generic import TemplateView
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^page0/$', views.page0, name='page0'),
-    url(r'^news/oci$', posts.news_oci, name='eHacks_OCI'),
+    url(r'^news/oci$', views.news_oci, name='eHacks_OCI'),
     #url(r'^index/', include(("caos_site.views.index", 'index'), namespace='index')),
 ]
