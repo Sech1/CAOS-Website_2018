@@ -31,3 +31,6 @@ def officers(request):
 
 def about(request):
     return render(request, "miscPagesContent/about.html")
+
+def contact(request):
+    return render(request, "miscPagesContent/contact.html")
