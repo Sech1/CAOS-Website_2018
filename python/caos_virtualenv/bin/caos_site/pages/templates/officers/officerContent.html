@@ -1,0 +1,106 @@
+{% extends 'officers/officers.html' %}
+{% load static %}
+
+{% block title %}
+CAOS - Officer List
+{% endblock %}
+
+{% block navTitle %}
+Officers
+{% endblock %}
+
+{% block navbarCustom %}
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:index' %}">
+                <span><i class="fas fa-home"></i></span>Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:register' %}">
+                <span><i class="fas fa-address-card"></i></span>Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:events' %}">
+                <span><i class="fas fa-calendar-alt"></i></span>Events & Meetings
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="{% url 'pages:officers' %}">
+                <span><i class="fas fa-users"></i></span>Officers
+                <span class="sr-only">(current)</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:about' %}">
+                <span><i class="fas fa-info-circle"></i></span>About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:contact' %}">
+                <span><i class="fas fa-comment"></i></span>Contact</a>
+        </li>
+    </ul>
+{% endblock %}
+
+{% block introHeader %}
+{% endblock %}
+
+{% block introContent %}
+{% endblock %}
+
+{% block caosOfficer0 %}
+    <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <img class="rounded-circle img-fluid d-block mx-auto" src="{% static '/img/officers/justin_ehacks.jpg' %}" alt="">
+        <h3>Justin Bruce
+            <small>Chair</small>
+        </h3>
+        <p>
+            <span><i class="fas fa-envelope"></i></span>Email:
+            <a href="mailto:jubruce@siue.com">jubruce@siue.edu</a>
+        </p>
+    </div>
+{% endblock %}
+
+{% block caosOfficer1 %}
+    <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <img class="rounded-circle img-fluid d-block mx-auto" src="{% static '/img/officers/jared_ehacks.jpg' %}" alt="">
+        <h3>Jared Schooley
+            <small>Co-Chair</small>
+        </h3>
+        <p>
+            <span><i class="fas fa-envelope"></i></span>Email:
+            <a href="mailto:jaschoo@siue.com">jaschoo@siue.edu</a>
+            <br>
+            <span><i class="fas fa-desktop"></i></span>Webpage:
+            <a href="caos.cs.siue.edu">This exact website!</a>
+        </p>
+    </div>
+{% endblock %}
+
+{% block caosOfficer2 %}
+    <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <img class="rounded-circle img-fluid d-block mx-auto" src="{% static '/img/officers/taylor_b.jpg' %}" alt="">
+        <h3>Taylor Dowdy
+            <small>Treasurer</small>
+        </h3>
+        <p>
+            <span><i class="fas fa-envelope"></i></span>Email:
+            <a href="mailto:tadowdy@siue.edu">tadowdy@siue.edu</a>
+        </p>
+    </div>
+{% endblock %}
+
+{% block caosOfficer3 %}
+    <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <img class="rounded-circle img-fluid d-block mx-auto" src="{% static '/img/officers/dennis_b.jpg' %}" alt="">
+        <h3>Justin Bruce
+            <small>Club Advisor</small>
+        </h3>
+        <p>
+            <span><i class="fas fa-envelope"></i></span>Email:
+            <a href="mailto:dbouvie@siue.edu">dbouvie@siue.edu</a>
+            <br>
+            <span><i class="fas fa-desktop"></i></span>Webpage:
+            <a href="http://www.cs.siue.edu/~dbouvie">http://www.cs.siue.edu/~dbouvie</a>
+        </p>
+    </div>
+{% endblock %}
