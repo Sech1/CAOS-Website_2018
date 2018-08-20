@@ -22,3 +22,12 @@ def news_oci(request):
 
 def events(request):
     return render(request, "miscPagesContent/events.html")
+
+def register(request):
+    return render(request, "miscPagesContent/register.html")
+
+def officers(request):
+    return render(request, "miscPagesContent/officers.html")
+
+def about(request):
+    return render(request, "miscPagesContent/about.html")
