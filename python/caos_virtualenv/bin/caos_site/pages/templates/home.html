@@ -16,12 +16,14 @@
 {% block post0 %}
 <!-- Blog Post 0 -->
 <div class="card mb-4">
-    <img class="card-img-top" src="https://objectcomputing.com/files/5115/1819/1925/ehacks_newspost-8.png"
+    <img class="card-img-top" src="{% static 'img/postImg/mlh_localhost.PNG' %}"
          alt="Card image cap">
     <div class="card-body">
-        <h2 class="card-title">OCI - Highlights FROM SIUE'S {eHacks} Hackathon</h2>
-        <p class="card-text">We were proud to sponsor {eHacks}, a hackathon in which teams of students
-            competed to build innovative digital products over the course of 36 hours.</p>
+        <h2 class="card-title">MLH Localhost Workshop - 8-29-2018</h2>
+        <p class="card-text">In this beginner level workshop, participants will learn the structure and syntax of basic
+            HTML and CSS. Participants will receive a skeleton of a portfolio website and will update the HTML
+            to include information about themselves and edit the CSS to style and position elements on their page!
+            Then, they’ll deploy their new website.</p>
         <a href="{% url 'pages:eHacks_OCI' %}" class="btn btn-primary">Read More
             <span><i class="far fa-caret-square-right"></i></span>
         </a>
@@ -35,6 +37,22 @@
 
 {% block post1 %}
 <!-- Blog Post 1 -->
+    <div class="card mb-4">
+        <img class="card-img-top" src="https://objectcomputing.com/files/5115/1819/1925/ehacks_newspost-8.png"
+             alt="Card image cap">
+        <div class="card-body">
+            <h2 class="card-title">OCI - Highlights FROM SIUE'S {eHacks} Hackathon</h2>
+            <p class="card-text">We were proud to sponsor {eHacks}, a hackathon in which teams of students
+                competed to build innovative digital products over the course of 36 hours.</p>
+            <a href="{% url 'pages:eHacks_OCI' %}" class="btn btn-primary">Read More
+                <span><i class="far fa-caret-square-right"></i></span>
+            </a>
+        </div>
+        <div class="card-footer text-muted">
+            Posted on Posted on July 28, 2018 at 5:00 PM by
+            <a href="officers/officers.html">Jared Schooley</a>
+        </div>
+    </div>
 {% endblock %}
 
 {% block post2 %}

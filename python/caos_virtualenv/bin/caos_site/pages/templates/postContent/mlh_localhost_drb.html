@@ -1,0 +1,86 @@
+{% extends 'viewPost.html' %}
+{% load static %}
+
+{% block title %}
+    CAOS - Computer Association of SIUE | MLH Localhost
+{% endblock %}
+
+{% block navbarTitle %}
+    News
+{% endblock %}
+
+{% block navbarCustom %}
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:index' %}">
+                <span><i class="fas fa-home"></i></span>Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:register' %}">
+                <span><i class="fas fa-address-card"></i></span>Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:events' %}">
+                <span><i class="fas fa-address-card"></i></span>Events & Meetings</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:officers' %}">
+                <span><i class="fas fa-users"></i></span>Officers</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:about' %}">
+                <span><i class="fas fa-info-circle"></i></span>About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:contact' %}">
+                <span><i class="fas fa-comment"></i></span>Contact</a>
+        </li>
+    </ul>
+{% endblock %}
+
+{% block articleTitle %}
+    MLH Localhost - HTML & CSS | Dennis J Bouvier, Ph.D.
+{% endblock %}
+
+{% block postedBy %}
+    posted by
+    <a href="{% url 'pages:officers' %}">Dennis J Bouvier, Ph.D.</a>
+{% endblock %}
+
+{% block dateTime %}
+    Posted on August 20, 2018 at 11:28 PM
+{% endblock %}
+
+{% block articleImage %}
+    <img class="img-fluid rounded" src="{% static 'img/postImg/mlh_localhost.PNG' %}" alt="">
+{% endblock %}
+
+{% block postContent %}
+    <br>
+    <p><b>About this Workshop</b></p>
+    <br>
+    <p>In this beginner level workshop, participants will learn the structure and syntax of basic HTML and CSS.
+        Participants will receive a skeleton of a portfolio website and will update the HTML to include information
+        about themselves and edit the CSS to style and position elements on their page! Then, they’ll deploy their
+        new website.</p>
+    <br>
+    <p>While learning to edit HTML elements and CSS properties is an important first step toward making a website,
+        there are more steps to getting a website publicly available on the internet. In this workshop, participants
+        will use a simple deployment tool to get their website live before they leave! This workshop is designed for
+        absolute beginners! There are no prerequisites.</p>
+
+    <p><b>Requirements / Prerequisites</b></p>
+    <br>
+    <p>Participants should bring a laptop, if possible.</p>
+    <br>
+    <p>Participants will need to install Node locally to run the deployment tool they'll be using. It will be helpful
+        to you if you have installed Node first so that you can help them through the process.</p>
+    <br>
+    <b>Time and Place</b>
+    <p>Meeting will take place:<br>
+        4:30pm on Wednesday 08-29-2018 in EB 2029</p><br>
+    <p>Length of Workshop:</p><br>
+    <p>The workshop should take 1.5 - 2.0 hours to complete</p>
+    <p>Please bring your own laptop if possible. MLH stickers will also be handed out to participants</p>
+    <br>
+{% endblock %}
