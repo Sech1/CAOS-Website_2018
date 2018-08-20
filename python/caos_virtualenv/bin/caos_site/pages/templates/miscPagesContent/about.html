@@ -1,0 +1,77 @@
+{% extends 'miscPages.html' %}
+{% load static %}
+
+{% block title %}
+    CAOS - About Us
+{% endblock %}
+
+{% block navbarTitle %}
+    About
+{% endblock %}
+
+{% block navbarCustom %}
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:index' %}">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:register' %}">Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:events' %}">Events & Meetings
+                <span class="sr-only">(current)</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:officers' %}">Officers</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="{% url 'pages:about' %}">About
+                <span class="sr-only">(current)</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:contact' %}">Contact</a>
+        </li>
+    </ul>
+{% endblock %}
+
+{% block mainContent %}
+    <!-- Post Content Column -->
+    <div class="col-lg-8">
+
+        <!-- Title -->
+        <br>
+        <!-- Author -->
+
+        <!-- Date/Time -->
+
+        <!-- Preview Image -->
+        <img class="img-fluid rounded" src="{% static '/img/aboutUs_beta.png' %}" alt="">
+
+        <hr class="style">
+        <!-- Post Content -->
+        <p></p>
+        <p class="lead">The Computer Association of SIUE is a local student chapter of the Association for Computing
+            Machinery.
+            Our goal is to promote and increase knowledge in the areas of science, engineering, design development,
+            construction, language,
+            and applications of modern computing machinery. </p>
+        <p>We regularly host a variety of events with including presentations on new technology, programming
+            languages,
+            research, industry internship meet and greets, and the occasional game of laser tag. We also make an
+            effort to be involved in the computing community at a
+            larger lever by inviting in industry experts, local businesses, participating in intercollegiate
+            programming competitions, as well as traveling to conferences of all types.</p>
+
+        <p>Though we are located at SIUE’s Computer Science department we welcome anyone and everyone to our forum
+            for friendly informational discussion.</p>
+
+        <p>For more information regarding the ACM please visit <a href="www.acm.org" target="_blank">www.acm.org</a>
+        </p>
+
+        <p>Membership in CAOS is free, sit in on a weekly meeting and see if it’s for you!</p>
+        <hr class="style">
+    </div>
+    <br>
+{% endblock %}
