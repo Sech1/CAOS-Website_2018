@@ -1,26 +1,23 @@
-{% load static %}
-
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="CAOS - Computer Association of SIUE" content="">
-    <meta name="Jared Schooley" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
     <title>{% block title %}{% endblock %}</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{% static  'css/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
-    <!--
-    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
-    -->
+    <link href="{% static 'css/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <!-- font-awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
           integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
-    <link href="{% static 'css/blog-home.css' %}" rel="stylesheet">
+    <link href="{% static 'css/blog-post.css' %}" rel="stylesheet">
 
 </head>
 
@@ -35,31 +32,29 @@
             <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
             &nbsp;{% block navbarTitle %}{% endblock %}&nbsp;
           </span></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="{% url 'pages:index' %}">Home
-                        <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Register</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="post/events.html">Events & Meetings</a>
+                    <a class="nav-link" href="../post/events.html">Events & Meetings</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="officers/officers.html">Officers</a>
+                    <a class="nav-link" href="../officers/officers.html">Officers</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="post/about.html">About</a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="post/contact.html">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
@@ -71,23 +66,32 @@
 
     <div class="row">
 
-        <!-- Blog Entries Column -->
-        <div class="col-md-8">
-            {% block topBanner %}
-            {% endblock %}
+        <!-- Post Content Column -->
+        <div class="col-lg-8">
 
-            {% block post0 %}
-            {% endblock %}
+            <!-- Title -->
+            <h1 class="mt-4">{% block articleTitle %}{% endblock %}</h1>
 
-            {% block post1 %}
-            {% endblock %}
+            <!-- Author -->
+            <p class="lead">
+                {% block postedBy %}{% endblock %}
+            </p>
 
-            {% block post2 %}
-            {% endblock %}
+            <hr>
 
-            <!-- Pagination -->
-            {% block pagination %}
+            <!-- Date/Time -->
+            <p>{% block dateTime %}{% endblock %}</p>
+
+            <hr>
+
+            <!-- Preview Image -->
+            {% block articleImage %}
             {% endblock %}
+            &nbsp;
+            <br>
+            <hr class="style">
+
+            <!-- Post Content -->
 
         </div>
 
@@ -188,5 +192,3 @@
 </body>
 
 </html>
-
-  

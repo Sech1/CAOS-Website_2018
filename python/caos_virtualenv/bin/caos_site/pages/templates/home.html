@@ -3,7 +3,7 @@
 
 {% block title %}CAOS - Computer Association of SIUE - Homepage{% endblock %}
 
-{% block css %}{% static 'css/blog-home.css' %}{% endblock %}
+{% block navbarTitle %}Home{% endblock %}
 
 {% block topBanner %}
 <h1 class="my-4">
@@ -13,8 +13,8 @@
 {% endblock %}
 
 
-{% block content %}
-<!-- Blog Post -->
+{% block post0 %}
+<!-- Blog Post 0 -->
 <div class="card mb-4">
     <img class="card-img-top" src="https://objectcomputing.com/files/5115/1819/1925/ehacks_newspost-8.png"
          alt="Card image cap">
@@ -31,8 +31,10 @@
         <a href="officers/officers.html">Jared Schooley</a>
     </div>
 </div>
+{% endblock %}
 
-<!-- Blog Post -->
+{% block post1 %}
+<!-- Blog Post 1 -->
 <div class="card mb-4">
     <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
     <div class="card-body">
@@ -49,8 +51,10 @@
         <a href="#">Start Bootstrap</a>
     </div>
 </div>
+{% endblock %}
 
-<!-- Blog Post -->
+{% block post2 %}
+<!-- Blog Post 2 -->
 <div class="card mb-4">
     <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
     <div class="card-body">
