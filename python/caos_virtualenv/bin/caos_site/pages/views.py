@@ -19,3 +19,6 @@ def page0(request):
 
 def news_oci(request):
     return render(request, "postContent/eHacks_oci.html")
+
+def events(request):
+    return render(request, "miscPagesContent/events.html")
