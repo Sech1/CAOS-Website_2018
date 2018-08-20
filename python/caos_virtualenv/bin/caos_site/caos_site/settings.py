@@ -26,7 +26,7 @@ SECRET_KEY = 'wa8brd!zel!jz#lslj2$_l+8xw#oc)3y&ssbc870oya9cglxhf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'caos.cs.siue.edu',]
 
 
 # Application definition
