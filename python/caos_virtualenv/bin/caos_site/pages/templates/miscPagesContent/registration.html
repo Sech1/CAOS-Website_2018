@@ -2,11 +2,11 @@
 {% load static %}
 
 {% block title %}
-    CAOS - Registration
+    CAOS - Registration & Mail-list
 {% endblock %}
 
 {% block navbarTitle %}
-    Contact
+    Registration
 {% endblock %}
 
 {% block navbarCustom %}
@@ -16,13 +16,14 @@
                 <span><i class="fas fa-home"></i></span>Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="{% url 'pages:register' %}">
-                <span><i class="fas fa-address-card"></i></span>Register</a>
+            <a class="nav-link active" href="{% url 'pages:register' %}">
+                <span><i class="fas fa-address-card"></i></span>Register
+                <span class="sr-only">(current)</span>
+            </a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="{% url 'pages:events' %}">
                 <span><i class="fas fa-calendar-alt"></i></span>Events & Meetings
-                <span class="sr-only">(current)</span>
             </a>
         </li>
         <li class="nav-item">
@@ -33,7 +34,7 @@
             <a class="nav-link" href="{% url 'pages:about' %}">
                 <span><i class="fas fa-info-circle"></i></span>About</a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
             <a class="nav-link" href="{% url 'pages:contact' %}">
                 <span><i class="fas fa-comment"></i></span>Contact
                 <span class="sr-only">(current)</span>
@@ -51,27 +52,9 @@
     <!-- Date/Time -->
 
     <!-- Preview Image -->
-    <img class="img-fluid rounded" src="{% static '/img/contact_beta.png' %}" alt="">
-
-    <hr class="style">
-
-    <!-- Post Content -->
-    <p class="lead" style="font-size: 135%">Questions, concerns, want to plan an event with CAOS?<br>
-        Go ahead and contact one of us!</p>
-    <p style="font-size: large"><b>Vice-Chair of CAOS / Webmaster:</b><br>
-        Jared Schooley<br>
-        <i class="fa fa-envelope" aria-hidden="true"></i>
-        Email: <a href="mailto:webmaster@example.com">jaschoo@siue.edu</a><br></p>
-
-    <p style="font-size: large"><b>Chair of CAOS</b><br>
-        Justin Bruce<br>
-        <i class="fa fa-envelope" aria-hidden="true"></i>
-        Email: <a href="mailto:webmaster@example.com">jubruce@siue.edu</a><br></p>
-
-    <p style="font-size: large"><b>Professor & Advisor for CAOS:</b><br>
-        Dennis J Bouvier, Ph.D.<br>
-        <i class="fa fa-envelope" aria-hidden="true"></i>
-        Email: <a href="mailto:webmaster@example.com">dbouvie@siue.edu</a><br></p>
+    <p>Registration coming soon, likely tomorrow actually (hopefully)
+    <br>
+    It will provide a means to join the mailing list and stay informed on events and happenings related to CAOS.</p>
 
 
     <hr class="style">
