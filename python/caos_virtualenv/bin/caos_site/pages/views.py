@@ -27,7 +27,7 @@ def register(request):
     return render(request, "miscPagesContent/register.html")
 
 def officers(request):
-    return render(request, "miscPagesContent/officers.html")
+    return render(request, "officers/officerContent.html")
 
 def about(request):
     return render(request, "miscPagesContent/about.html")
