@@ -24,7 +24,7 @@ def events(request):
     return render(request, "miscPagesContent/events.html")
 
 def register(request):
-    return render(request, "miscPagesContent/register.html")
+    return render(request, "miscPagesContent/registration.html")
 
 def officers(request):
     return render(request, "officers/officerContent.html")
