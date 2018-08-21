@@ -1,0 +1,102 @@
+{% extends 'viewPost.html' %}
+{% load static %}
+
+{% block title %}
+    CAOS - Computer Association of SIUE | weCode 2018
+{% endblock %}
+
+{% block navbarTitle %}
+    News
+{% endblock %}
+
+{% block navbarCustom %}
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:index' %}">
+                <span><i class="fas fa-home"></i></span>Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:register' %}">
+                <span><i class="fas fa-address-card"></i></span>Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:events' %}">
+                <span><i class="fas fa-address-card"></i></span>Events & Meetings</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:officers' %}">
+                <span><i class="fas fa-users"></i></span>Officers</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:about' %}">
+                <span><i class="fas fa-info-circle"></i></span>About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:contact' %}">
+                <span><i class="fas fa-comment"></i></span>Contact</a>
+        </li>
+    </ul>
+{% endblock %}
+
+{% block articleTitle %}
+    High School Students from Across the Region Participate in SIUE WeCode Event
+{% endblock %}
+
+{% block postedBy %}
+    posted by
+    <a href="{% url 'pages:officers' %}">Jared Schooley</a>
+{% endblock %}
+
+{% block dateTime %}
+    Posted on August 19, 2018 at 8:13 PM
+{% endblock %}
+
+{% block articleImage %}
+    <img class="img-fluid rounded" src="{% static 'img/postImg/weCode-email_bulb.jpg' %}" alt="">
+{% endblock %}
+
+{% block postContent %}
+    <br>
+    <p>More than 30 high school students from across the region developed their own computer program during the Southern
+        Illinois University Edwardsville School of Engineering’s (SOE) WeCode event on Saturday, April 21.</p>
+
+    <p>Hosted by the SOE Department of Computer Science, participants from Edwardsville, Greenfield, Alton,
+        Jerseyville, Waterloo, O’Fallon, Carrollton, Belleville and more learned computer programming through
+        collaborative problem solving and building. About half of the students had never programmed before.</p>
+
+    <p>To create their computer program, they used Snap, an online programming environment hosted by the University of
+        California Berkeley. Snap is used in some computer science AP courses and college courses.</p>
+
+    <blockquote class="blockquote">
+    <p>“Computer science is a growing field with an increasing variety of career opportunities, We were glad to offer
+        these high school students a chance to engage in a programming project while receiving mentorship from
+        SIUE students.”</p>
+        <footer class="blockquote-footer">Dennis Bouvier, PhD, associate professor of computer science.</footer>
+    </blockquote>
+
+    <p>Helping participants during WeCode was Dennis Bouvier, PhD, associate professor of computer science.“Our
+        participants created some wonderful applications during our WeCode event, and I think we succeeded in giving
+        them the tools to continue learning programming on their own.”</p>
+
+    <p>Bouvier, and SIUE computer science students Eli Ball, Meg Heisler, Taylor Dowdy, Jared Schooley and Justin Bruce,
+        assisted participants during the event.</p>
+
+    <p>Event sponsors included Centene Corporation, AT&T, NiSC, OCI, Enterprise Holdings, T-REX, BJ’s
+        Printables and SIUE.</p>
+
+    <p>For more information on SIUE’s computer science program, visit
+        <a href="siue.edu/computer-science">siue.edu/computer-science.</a></p>
+
+    <blockquote class="blockquote">
+        <img class="img-fluid rounded" src="https://www.siue.edu/news/2018/04/img/WeCode-EliBall.jpg">
+        <footer class="blockquote-footer">SIUE computer science student Eli Ball assists high school participants at the WeCode event.
+        </footer>
+    </blockquote>
+
+    <blockquote class="blockquote">
+        <img class="img-fluid rounded" src="https://www.siue.edu/news/2018/04/img/WeCode-DennisBouvier.jpg">
+        <footer class="blockquote-footer">Helping participants during WeCode was Dennis Bouvier, PhD, associate professor of computer science.
+        </footer>
+    </blockquote>
+    <br>
+{% endblock %}

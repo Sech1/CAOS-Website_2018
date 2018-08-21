@@ -20,6 +20,9 @@ def page0(request):
 def news_oci(request):
     return render(request, "postContent/eHacks_oci.html")
 
+def weCode_2018(request):
+    return render(request, "postContent/weCode_2018.html")
+
 def mlh_localhost_drb(request):
     return render(request, "postContent/mlh_localhost_drb.html")
 
