@@ -57,14 +57,14 @@
                 whenever there's news or an event about to happen.</p>
             <!-- Author -->
             <div class="container" id="reg_form" style="width: max-content">
-                <form action="" method="post" id="reg_form" class="form-control-plaintext" style="align-self: center"
+                <form action="" method="post" id="reg_form" class="form-group" style="align-self: center"
                       onsubmit="return validate()">
                     {% csrf_token %}
-                    <table style="align-items: left" class="form-group"
+                    <table style="align-items: left" class="table-responsive"
                            id="form_table">
                         {{ form.as_table }}
                     </table>
-                    <div style="padding-left: 47px">
+                    <div style="padding-left: 50px">
                         <button class="btn btn-primary" id="search_submit" name="search_submit"
                                 type="submit"
                                 value="submit" style="float: left;" onclick="return validate()">
