@@ -6,7 +6,7 @@ from django.shortcuts import get_object_or_404
 from django.http import HttpResponseRedirect
 from django.urls import reverse
 
-from . import RegistrationForm
+from .forms import RegistrationForm
 
 # Create your views here.
 
@@ -52,9 +52,9 @@ def register(request):
         form = RegistrationForm(request.POST)
         if form.is_valid():
             form.save()
-            return HttpResponseRedirect('../../membership/register_success')
+            return HttpResponseRedirect('home.html')
     else:
         form = RegistrationForm()
-    args['form'] = form
+        args['form'] = form
 
     return render(request,'registration/registration.html', args)
