@@ -4,6 +4,8 @@ var isValid = false;
 function validate() {
 
     var alpha = /^[A-Za-z]+$/;
+    var email =
+        /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
 
     var firstValid = false;
     var lastValid = false;
@@ -63,15 +65,18 @@ function validate() {
         errorSection.innerHTML += '<span style="color:red">Enter valid email.</span><br>';
         //set test bool to false
         emailValid = false;
+    } else if (!emailObj.value.match(email)) {
+        errorSection.innerHTML += '<span style="color:red">Enter valid email.</span><br>';
+        emailValid = false;
     } else {
         // else set to true
         emailValid = true;
         //reset error
     }
-    //     ---------EMAIL VALIDITY CHECK ENDS---------
+//     ---------EMAIL VALIDITY CHECK ENDS---------
 
-    //     ---------FINAL VALIDITY CHECK---------
-    //If all required fields are filled then set isValid to true and allow to form to submit
+//     ---------FINAL VALIDITY CHECK---------
+//If all required fields are filled then set isValid to true and allow to form to submit
     if ((firstValid && lastValid && emailValid)) {
         //set isValid to true
         isValid = true;
