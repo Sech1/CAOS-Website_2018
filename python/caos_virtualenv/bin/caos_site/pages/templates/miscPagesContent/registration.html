@@ -62,12 +62,14 @@
                     {% csrf_token %}
                     {% for field in form %}
                         <div class="form-group {% if field.errors %}has-error{% endif %}" id="group_{{ field.name }}">
-                            <label for="id_{{ field.name }}" class="control-label" style="height: 50px">{{ field.label }}</label>
+                            <label for="id_{{ field.name }}" class="control-label">{{ field.label }}</label>
                             <div class="input-group mb-2">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
                                 </div>
+                                <div class="input-group-lg" style="height: 49px">
                                 {{ field }}
+                                </div>
                             </div>
                         </div>
                     {% endfor %}
