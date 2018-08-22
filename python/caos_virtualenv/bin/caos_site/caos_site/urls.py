@@ -15,12 +15,13 @@ Including another URLconf
 """
 from django.conf.urls import *
 from django.contrib import admin
+from django.urls import path
 
 # Uncomment the next two lines to enable the admin:
-from django.contrib import admin
+#from django.contrib import admin
 
 urlpatterns = [
     url(r'^', include(('pages.urls', 'pages'), namespace='pages')),
-    path('admin/', admin.site.urls),
+    path(r'^admin/', admin.site.urls),
     #url(r'^index/', include(("caos_site.views.index", 'index'), namespace='index')),
 ]
