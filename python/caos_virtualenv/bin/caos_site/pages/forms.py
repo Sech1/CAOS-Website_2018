@@ -20,11 +20,11 @@ class RegistrationForm(forms.ModelForm):
         }
         widgets = {
             'first': forms.TextInput(attrs={'class': 'input-group-lg',
-                                            'placeholder': 'First Name', 'height': '49px'}),
+                                            'placeholder': 'First Name'}),
             'last': forms.TextInput(attrs={'class': 'input-group-lg',
-                                           'placeholder': 'Last Name', 'height': '49px'}),
+                                           'placeholder': 'Last Name'}),
             'email': forms.TextInput(attrs={'class': 'input-group-lg',
-                                            'placeholder': 'Email', 'height': '49px'}),
+                                            'placeholder': 'Email'}),
         }
 
     # Now you could describe all validation methods
