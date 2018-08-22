@@ -60,21 +60,21 @@
                 <form action="" method="post" id="reg_form" class="form-group" style="align-self: center"
                       onsubmit="return validate()">
                     {% csrf_token %}
-                            <label for="id_{{ field.name }}" class="control-label">First:</label>
+                            <label for="id_{{ field.name }}" class="control-label"></label>
                             <div class="input-group">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
                                 </div>
                                 {{ form.first }}
                             </div>
-                        <label for="id_{{ field.name }}" class="control-label">Last:</label>
+                        <label for="id_{{ field.name }}" class="control-label"></label>
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text" id="basic-addon1"><i class="fas fa-signature"></i></span>
                             </div>
                             {{ form.last }}
                         </div>
-                        <label for="id_{{ field.name }}" class="control-label">Email:</label>
+                        <label for="id_{{ field.name }}" class="control-label"></label>
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text" id="basic-addon1"><i class="fas fa-envelope-square"></i></span>
