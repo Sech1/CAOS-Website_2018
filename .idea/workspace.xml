@@ -44,13 +44,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="4865" />
+          <entry key="html" value="4885" />
           <entry key="py" value="2147" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="4865" />
+          <entry key="HTML" value="4885" />
           <entry key="Python" value="2147" />
         </counts>
       </usages-collector>
@@ -70,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPagesContent/events.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="677">
-              <caret line="50" column="79" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="79" />
+              <caret line="50" column="79" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -91,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="603">
-              <caret line="74" column="10" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="74" selection-end-column="10" />
+              <caret line="74" column="10" selection-start-line="59" selection-start-column="4" selection-end-line="74" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -117,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="771">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
                 <marker date="1534926145407" expanded="true" signature="756:915" ph="..." />
@@ -136,7 +136,7 @@
         <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding>
                 <marker date="1534920981193" expanded="true" signature="91:96" ph="..." />
               </folding>
@@ -147,8 +147,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPagesContent/registration.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
-              <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+            <state relative-caret-position="738">
+              <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
               <folding>
                 <element signature="e#2167#2192#0#HTML" expanded="true" />
                 <element signature="e#2279#2305#0#HTML" expanded="true" />
@@ -369,12 +369,12 @@
       <workItem from="1534726966744" duration="10713000" />
       <workItem from="1534770610772" duration="2272000" />
       <workItem from="1534785409140" duration="201000" />
-      <workItem from="1534813352681" duration="13910000" />
+      <workItem from="1534813352681" duration="13964000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51540000" />
+    <option name="totallyTimeSpent" value="51594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -589,7 +589,7 @@
     <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="771">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
             <marker date="1534926145407" expanded="true" signature="756:915" ph="..." />
@@ -611,7 +611,7 @@
     <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding>
             <marker date="1534920981193" expanded="true" signature="91:96" ph="..." />
           </folding>
@@ -634,21 +634,21 @@
     <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPagesContent/events.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="677">
-          <caret line="50" column="79" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="79" />
+          <caret line="50" column="79" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="603">
-          <caret line="74" column="10" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="74" selection-end-column="10" />
+          <caret line="74" column="10" selection-start-line="59" selection-start-column="4" selection-end-line="74" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPagesContent/registration.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+        <state relative-caret-position="738">
+          <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
           <folding>
             <element signature="e#2167#2192#0#HTML" expanded="true" />
             <element signature="e#2279#2305#0#HTML" expanded="true" />
