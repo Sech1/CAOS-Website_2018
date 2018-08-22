@@ -48,14 +48,14 @@
         <counts>
           <entry key="html" value="5663" />
           <entry key="js" value="250" />
-          <entry key="py" value="2502" />
+          <entry key="py" value="2511" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="5663" />
           <entry key="JavaScript" value="250" />
-          <entry key="Python" value="2502" />
+          <entry key="Python" value="2511" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions" />
@@ -169,7 +169,7 @@
         <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/forms.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+              <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
               <folding>
                 <element signature="e#12#44#0" expanded="true" />
               </folding>
@@ -326,12 +326,12 @@
       <workItem from="1534726966744" duration="10713000" />
       <workItem from="1534770610772" duration="2272000" />
       <workItem from="1534785409140" duration="201000" />
-      <workItem from="1534813352681" duration="26462000" />
+      <workItem from="1534813352681" duration="26493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64092000" />
+    <option name="totallyTimeSpent" value="64123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -619,7 +619,7 @@
     <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+          <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
           <folding>
             <element signature="e#12#44#0" expanded="true" />
           </folding>
