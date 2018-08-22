@@ -14,14 +14,14 @@ class RegistrationForm(forms.ModelForm):
         fields = ['first', 'last', 'email']
         # Then you could rename you fields labels, otherwise django will use names of model fields
         labels = {
-            'first': 'First Name',
-            'last': 'Last Name',
-            'email': 'Email',
+            'first': '',
+            'last': '',
+            'email': '',
         }
         widgets = {
-            'first': forms.TextInput(attrs={'class': 'form-group'}),
-            'last': forms.TextInput(attrs={'class': 'form-group'}),
-            'email': forms.TextInput(attrs={'class': 'form-group'}),
+            'first': forms.TextInput(attrs={'class': 'form-group', 'placeholder': 'First Name'}),
+            'last': forms.TextInput(attrs={'class': 'form-group', 'placeholder': 'Last Name'}),
+            'email': forms.TextInput(attrs={'class': 'form-group', 'placeholder': 'Email'}),
         }
 
     # Now you could describe all validation methods
