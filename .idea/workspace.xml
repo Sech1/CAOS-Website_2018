@@ -44,13 +44,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="5163" />
+          <entry key="html" value="5173" />
           <entry key="py" value="2383" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="5163" />
+          <entry key="HTML" value="5173" />
           <entry key="Python" value="2383" />
         </counts>
       </usages-collector>
@@ -153,9 +153,9 @@
         <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPagesContent/registration.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="558">
-              <caret line="61" column="61" selection-start-line="61" selection-start-column="60" selection-end-line="61" selection-end-column="61" />
+              <caret line="61" column="55" lean-forward="true" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
               <folding>
-                <element signature="e#2116#2155#0#HTML" expanded="true" />
+                <element signature="e#2116#2175#0#HTML" expanded="true" />
                 <element signature="e#2279#2305#0#HTML" expanded="true" />
                 <element signature="e#2566#2592#0#HTML" expanded="true" />
                 <element signature="e#2587#2626#0#HTML" expanded="true" />
@@ -319,12 +319,12 @@
       <workItem from="1534726966744" duration="10713000" />
       <workItem from="1534770610772" duration="2272000" />
       <workItem from="1534785409140" duration="201000" />
-      <workItem from="1534813352681" duration="19087000" />
+      <workItem from="1534813352681" duration="19128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56717000" />
+    <option name="totallyTimeSpent" value="56758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -603,9 +603,9 @@
     <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPagesContent/registration.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
-          <caret line="61" column="61" selection-start-line="61" selection-start-column="60" selection-end-line="61" selection-end-column="61" />
+          <caret line="61" column="55" lean-forward="true" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
           <folding>
-            <element signature="e#2116#2155#0#HTML" expanded="true" />
+            <element signature="e#2116#2175#0#HTML" expanded="true" />
             <element signature="e#2279#2305#0#HTML" expanded="true" />
             <element signature="e#2566#2592#0#HTML" expanded="true" />
             <element signature="e#2587#2626#0#HTML" expanded="true" />
