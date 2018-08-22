@@ -60,7 +60,7 @@ function validate() {
     //check validity of email input (is it an email address)
     if (!emailObj.checkValidity()) {
         //if invalid set error section to display error
-        errorSection.innerHTML = '<span style="color:red">Enter valid email.</span><br>';
+        errorSection.innerHTML += '<span style="color:red">Enter valid email.</span><br>';
         //set test bool to false
         emailValid = false;
     } else {
