@@ -46,16 +46,16 @@
 {% block mainContent %}
     <!-- Post Content Column -->
     <!-- Title -->
+    <img class="img-fluid rounded" src="{% static '/img/register/register_beta.png' %}" alt="">
     <br>
     <!-- Author -->
-
+    <form action="" method="post">
+        {% csrf_token %}
+        {{ form.as_table }}
+        <input type="submit" value="Submit">
+    </form>
     <!-- Date/Time -->
 
     <!-- Preview Image -->
-    <p>Registration coming soon, likely tomorrow actually (hopefully)
-    <br>
-    It will provide a means to join the mailing list and stay informed on events and happenings related to CAOS.</p>
-
-
     <hr class="style">
 {% endblock %}
