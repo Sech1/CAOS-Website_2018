@@ -46,14 +46,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="5252" />
+          <entry key="html" value="5258" />
           <entry key="js" value="250" />
           <entry key="py" value="2383" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="5252" />
+          <entry key="HTML" value="5258" />
           <entry key="JavaScript" value="250" />
           <entry key="Python" value="2383" />
         </counts>
@@ -145,10 +145,11 @@
         <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPagesContent/registration.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="348">
-              <caret line="58" column="57" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
+              <caret line="58" column="87" selection-start-line="58" selection-start-column="87" selection-end-line="58" selection-end-column="87" />
               <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="e#2279#2305#0#HTML" expanded="true" />
-                <element signature="e#2342#2404#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="e#2566#2592#0#HTML" expanded="true" />
                 <element signature="e#2587#2626#0#HTML" expanded="true" />
               </folding>
@@ -326,12 +327,12 @@
       <workItem from="1534726966744" duration="10713000" />
       <workItem from="1534770610772" duration="2272000" />
       <workItem from="1534785409140" duration="201000" />
-      <workItem from="1534813352681" duration="22664000" />
+      <workItem from="1534813352681" duration="22785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60294000" />
+    <option name="totallyTimeSpent" value="60415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -616,10 +617,11 @@
     <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPagesContent/registration.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
-          <caret line="58" column="57" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
+          <caret line="58" column="87" selection-start-line="58" selection-start-column="87" selection-end-line="58" selection-end-column="87" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="e#2279#2305#0#HTML" expanded="true" />
-            <element signature="e#2342#2404#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="e#2566#2592#0#HTML" expanded="true" />
             <element signature="e#2587#2626#0#HTML" expanded="true" />
           </folding>
