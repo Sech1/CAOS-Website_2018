@@ -6,7 +6,7 @@ from django.shortcuts import get_object_or_404
 from django.http import HttpResponseRedirect
 from django.urls import reverse
 
-from forms import RegistrationForm
+from . import RegistrationForm
 
 # Create your views here.
 
