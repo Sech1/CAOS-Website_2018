@@ -51,9 +51,25 @@
     <!-- Author -->
     <form action="" method="post">
         {% csrf_token %}
-        {{ form.as_table }}
+
+        {{ form.first }}
+
         <input type="submit" value="Submit">
     </form>
+
+    <div id = "reg_form">
+        <form action="" method="post" id = "reg_form">
+            {% csrf_token %}
+
+            <div class="col-xs-6">
+                {{ form.as_p }}
+                {{ form.media }}
+            </div>
+            <div class="col-xs-6">
+                <button class="btn btn-primary" id="search_submit" name = "search_submit" type="submit" value = "submit" ><span class="btn-primary"></span></button>
+            </div>
+        </form>
+    </div>
     <!-- Date/Time -->
 
     <!-- Preview Image -->

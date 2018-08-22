@@ -10,12 +10,17 @@ from django.utils.translation import ugettext_lazy as _
 class RegistrationForm(forms.ModelForm):
     class Meta:
         model = Registration
-        fields = '__all__' # Django adds all fields you've described in Student
+        fields = ['name', 'last', 'email']
         # Then you could rename you fields labels, otherwise django will use names of model fields
         labels = {
             'first': 'First Name',
             'last': 'Last Name',
             'email': 'Email',
+        }
+        widgets = {
+            'first': TextInput(attrs={'class': 'form-group'}),
+            'last': TextInput(attrs={'class': 'form-group'}),
+            'email': TextInput(attrs={'class': 'form-group'}),
         }
 
     # Now you could describe all validation methods
