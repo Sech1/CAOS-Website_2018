@@ -16,6 +16,7 @@ urlpatterns = [
     path('about/', views.about, name='about'),
     path('contact/', views.contact, name='contact'),
     path(r'^admin/', admin.site.urls),
+    path('registration/success', views.contact, name='contact'),
     #url(r'^post/page0/', views.page0, name='page0'),
     #url(r'^/post/postContent/eHacks_OCI/', views.news_oci, name='eHacks_OCI'),
     ]

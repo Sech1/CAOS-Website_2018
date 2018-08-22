@@ -46,13 +46,16 @@ def about(request):
 def contact(request):
     return render(request, "miscPagesContent/contact.html")
 
+def success(request):
+    return render(request, "miscPagesContent/success.html")
+
 def register(request):
     args = {}
     if request.method == 'POST':
         form = RegistrationForm(request.POST)
         if form.is_valid():
             form.save()
-            return HttpResponseRedirect('miscPagesContent/success.html')
+            return HttpResponseRedirect(reverse('pages:success'))
     else:
         form = RegistrationForm()
         args['form'] = form
