@@ -52,7 +52,7 @@ def register(request):
         form = RegistrationForm(request.POST)
         if form.is_valid():
             form.save()
-            return HttpResponseRedirect('home.html')
+            return HttpResponseRedirect('miscPagesContent/success.html')
     else:
         form = RegistrationForm()
         args['form'] = form
