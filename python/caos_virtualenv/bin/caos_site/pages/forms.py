@@ -14,9 +14,9 @@ class RegistrationForm(forms.ModelForm):
         fields = ['first', 'last', 'email']
         # Then you could rename you fields labels, otherwise django will use names of model fields
         labels = {
-            'first': '<span><i class="fas fa-signature"></i></span>',
-            'last': '<span><i class="fas fa-signature"></i></span>',
-            'email': '<span><i class="fas fa-envelope-square"></i></span>',
+            'first': '<i class="fas fa-signature"></i>',
+            'last': '<i class="fas fa-signature"></i>',
+            'email': '<i class="fas fa-envelope-square"></i>',
         }
         widgets = {
             'first': forms.TextInput(attrs={'class': 'form-group',
