@@ -49,23 +49,16 @@
     <img class="img-fluid rounded" src="{% static '/img/register/register_beta.png' %}" alt="">
     <br>
     <!-- Author -->
-    <form action="" method="post">
-        {% csrf_token %}
-
-        {{ form.first }}
-
-        <input type="submit" value="Submit">
-    </form>
-
     <div id = "reg_form">
-        <form action="" method="post" id = "reg_form">
+        <form action="" method="post" id = "reg_form" class="form-control-plaintext">
             {% csrf_token %}
-
             <div class="col-xs-6">
-                {{ form.as_p }}
+                <table>
+                {{ form.as_table }}
+                </table>
             </div>
             <div class="col-xs-6">
-                <button class="btn btn-primary" id="search_submit" name = "search_submit" type="submit" value = "submit" ><span class="btn-primary"></span></button>
+                <button class="btn btn-primary" id="search_submit" name = "search_submit" type="submit" value = "submit" ><span class="btn-primary"></span>Submit</button>
             </div>
         </form>
     </div>
