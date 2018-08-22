@@ -19,11 +19,11 @@ class RegistrationForm(forms.ModelForm):
             'email': '',
         }
         widgets = {
-            'first': forms.TextInput(attrs={'class': 'form-group',
+            'first': forms.TextInput(attrs={'class': 'input-group-lg',
                                             'placeholder': 'First Name', 'height': '49px'}),
-            'last': forms.TextInput(attrs={'class': 'form-group',
+            'last': forms.TextInput(attrs={'class': 'input-group-lg',
                                            'placeholder': 'Last Name', 'height': '49px'}),
-            'email': forms.TextInput(attrs={'class': 'form-group',
+            'email': forms.TextInput(attrs={'class': 'input-group-lg',
                                             'placeholder': 'Email', 'height': '49px'}),
         }
 
