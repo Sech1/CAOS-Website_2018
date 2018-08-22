@@ -56,11 +56,11 @@
             <p class="card-text">Here's how. Fill out the couple of form fields and you'll be emailed
                 whenever there's news or an event about to happen.</p>
             <!-- Author -->
-            <div id="reg_form" style="alignment: center" style="padding-left: 100px">
+            <div id="reg_form" style="alignment: center">
                 <form action="" method="post" id="reg_form" class="form-control-plaintext" style="align-self: center">
                     {% csrf_token %}
                     <div class="col-xs-6">
-                        <table style="align-self: center; padding: 0px" class="form-group">
+                        <table style="align-self: center; padding: 0px" class="form-group" style="padding-left: 100px">
                             {{ form.as_table }}
                         </table>
                         <div style="padding-left: 50px">
