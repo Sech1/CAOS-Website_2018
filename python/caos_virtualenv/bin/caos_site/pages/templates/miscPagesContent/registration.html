@@ -60,27 +60,29 @@
                 <form action="" method="post" id="reg_form" class="form-group" style="align-self: center"
                       onsubmit="return validate()">
                     {% csrf_token %}
-                            <label for="id_{{ field.name }}" class="control-label"></label>
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
-                                </div>
-                                {{ form.first }}
-                            </div>
-                        <label for="id_{{ field.name }}" class="control-label"></label>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="basic-addon1"><i class="fas fa-signature"></i></span>
-                            </div>
-                            {{ form.last }}
+                    <div class="input-group">
+                        <label for="id_first" class="control-label"></label>
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
                         </div>
-                        <label for="id_{{ field.name }}" class="control-label"></label>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="basic-addon1"><i class="fas fa-envelope-square"></i></span>
-                            </div>
-                            {{ form.email }}
+                        {{ form.first }}
+                    </div>
+                    <div class="input-group">
+                        <label for="id_last" class="control-label"></label>
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-signature"></i></span>
                         </div>
+                        {{ form.last }}
+                    </div>
+                    <div class="input-group">
+                        <label for="id_email" class="control-label"></label>
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><i
+                                    class="fas fa-envelope-square"></i></span>
+                        </div>
+                        {{ form.email }}
+                    </div>
+                    <br>
                     <div style="padding-left: 60px">
                         <button class="btn btn-primary" id="search_submit" name="search_submit"
                                 type="submit"
