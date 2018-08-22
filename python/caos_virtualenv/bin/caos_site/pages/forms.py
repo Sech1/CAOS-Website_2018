@@ -11,7 +11,7 @@ from django.forms.widgets import TextInput
 class RegistrationForm(forms.ModelForm):
     class Meta:
         model = Registration
-        fields = ['name', 'last', 'email']
+        fields = ['first', 'last', 'email']
         # Then you could rename you fields labels, otherwise django will use names of model fields
         labels = {
             'first': 'First Name',
