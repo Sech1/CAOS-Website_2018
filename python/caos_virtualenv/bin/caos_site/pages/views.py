@@ -57,4 +57,4 @@ def register(request):
         form = RegistrationForm()
         args['form'] = form
 
-    return render(request,'registration/registration.html', args)
+    return render(request,'miscPagesContent/registration.html', args)
