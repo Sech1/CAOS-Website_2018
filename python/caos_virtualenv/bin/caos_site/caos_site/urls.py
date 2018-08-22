@@ -14,11 +14,13 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.conf.urls import *
+from django.contrib import admin
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
 
 urlpatterns = [
     url(r'^', include(('pages.urls', 'pages'), namespace='pages')),
+    path('admin/', admin.site.urls),
     #url(r'^index/', include(("caos_site.views.index", 'index'), namespace='index')),
 ]
