@@ -55,21 +55,23 @@
             <h2 class="card-title">Interested in getting involved with CAOS?</h2>
             <p class="card-text">Here's how. Fill out the couple of form fields and you'll be emailed
                 whenever there's news or an event about to happen.</p>
-        </div>
-    <!-- Author -->
-    <div id = "reg_form" style="alignment: center">
-        <form action="" method="post" id = "reg_form" class="form-control-plaintext" style="align-self: center">
-            {% csrf_token %}
-            <div class="col-xs-6">
-                <table style="align-self: center; padding: 3px" class="form-group">
-                {{ form.as_table }}
-                </table>
-                <button class="btn btn-primary" id="search_submit" name = "search_submit" type="submit" value = "submit" style="float: left; padding-left: 30px">
-                    Submit <span><i class="far fa-caret-square-right"></i></span></button>
+            <!-- Author -->
+            <div id="reg_form" style="alignment: center">
+                <form action="" method="post" id="reg_form" class="form-control-plaintext" style="align-self: center">
+                    {% csrf_token %}
+                    <div class="col-xs-6">
+                        <table style="align-self: center; padding: 3px" class="form-group">
+                            {{ form.as_table }}
+                        </table>
+                        <div style="padding-left: 30px">
+                            <button class="btn btn-primary" id="search_submit" name="search_submit" type="submit"
+                                    value="submit" style="float: left;">
+                                Submit <span><i class="far fa-caret-square-right"></i></span></button>
+                        </div>
+                    </div>
+                </form>
             </div>
-
-        </form>
-    </div>
+        </div>
     </div>
     <!-- Date/Time -->
 
