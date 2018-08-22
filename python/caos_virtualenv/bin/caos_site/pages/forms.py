@@ -5,6 +5,7 @@ import datetime
 from django import forms
 from django.core.exceptions import ValidationError
 from django.utils.translation import ugettext_lazy as _
+from django.forms.widgets import TextInput
 
 
 class RegistrationForm(forms.ModelForm):
@@ -18,9 +19,9 @@ class RegistrationForm(forms.ModelForm):
             'email': 'Email',
         }
         widgets = {
-            'first': TextInput(attrs={'class': 'form-group'}),
-            'last': TextInput(attrs={'class': 'form-group'}),
-            'email': TextInput(attrs={'class': 'form-group'}),
+            'first': forms.TextInput(attrs={'class': 'form-group'}),
+            'last': forms.TextInput(attrs={'class': 'form-group'}),
+            'email': forms.TextInput(attrs={'class': 'form-group'}),
         }
 
     # Now you could describe all validation methods
