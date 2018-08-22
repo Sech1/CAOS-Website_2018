@@ -144,11 +144,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPagesContent/registration.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="62" column="71" selection-start-line="62" selection-start-column="71" selection-end-line="62" selection-end-column="71" />
+            <state relative-caret-position="348">
+              <caret line="58" column="57" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="e#2279#2305#0#HTML" expanded="true" />
+                <element signature="e#2342#2404#0#HTML" expanded="true" />
                 <element signature="e#2566#2592#0#HTML" expanded="true" />
                 <element signature="e#2587#2626#0#HTML" expanded="true" />
               </folding>
@@ -326,12 +326,12 @@
       <workItem from="1534726966744" duration="10713000" />
       <workItem from="1534770610772" duration="2272000" />
       <workItem from="1534785409140" duration="201000" />
-      <workItem from="1534813352681" duration="22629000" />
+      <workItem from="1534813352681" duration="22664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60259000" />
+    <option name="totallyTimeSpent" value="60294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -615,11 +615,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPagesContent/registration.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="62" column="71" selection-start-line="62" selection-start-column="71" selection-end-line="62" selection-end-column="71" />
+        <state relative-caret-position="348">
+          <caret line="58" column="57" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="e#2279#2305#0#HTML" expanded="true" />
+            <element signature="e#2342#2404#0#HTML" expanded="true" />
             <element signature="e#2566#2592#0#HTML" expanded="true" />
             <element signature="e#2587#2626#0#HTML" expanded="true" />
           </folding>
