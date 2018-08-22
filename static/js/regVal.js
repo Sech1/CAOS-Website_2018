@@ -13,7 +13,7 @@ function validate() {
     var lastObj = document.getElementById('id_last');
     var emailObj = document.getElementById('id_email');
 
-    document.getElementById('errorSection').innerHTML += '';
+    document.getElementById('errorSection').innerHTML = '';
 
     //     ---------FIRST NAME VALIDITY CHECK---------
     //Check validity of first name
