@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ee8e0f0b-b6dc-40dc-9d77-6b06fe1be327" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPagesContent/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPagesContent/registration.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -170,8 +169,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="114" selection-start-line="24" selection-start-column="114" selection-end-line="24" selection-end-column="114" />
+            <state relative-caret-position="270">
+              <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
               <folding>
                 <element signature="e#12#44#0" expanded="true" />
               </folding>
@@ -328,12 +327,12 @@
       <workItem from="1534726966744" duration="10713000" />
       <workItem from="1534770610772" duration="2272000" />
       <workItem from="1534785409140" duration="201000" />
-      <workItem from="1534813352681" duration="24488000" />
+      <workItem from="1534813352681" duration="24692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62118000" />
+    <option name="totallyTimeSpent" value="62322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -621,8 +620,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="114" selection-start-line="24" selection-start-column="114" selection-end-line="24" selection-end-column="114" />
+        <state relative-caret-position="270">
+          <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
           <folding>
             <element signature="e#12#44#0" expanded="true" />
           </folding>
