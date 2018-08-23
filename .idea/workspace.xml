@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee8e0f0b-b6dc-40dc-9d77-6b06fe1be327" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPagesContent/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPagesContent/registration.html" afterDir="false" />
-    </list>
+    <list default="true" id="ee8e0f0b-b6dc-40dc-9d77-6b06fe1be327" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +16,7 @@
     <session id="-1985408508">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.8" value="1" />
@@ -326,16 +324,15 @@
       <workItem from="1534726966744" duration="10713000" />
       <workItem from="1534770610772" duration="2272000" />
       <workItem from="1534785409140" duration="201000" />
-      <workItem from="1534813352681" duration="27355000" />
+      <workItem from="1534813352681" duration="27429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64985000" />
+    <option name="totallyTimeSpent" value="65059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21916972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
