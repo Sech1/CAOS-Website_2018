@@ -1,6 +1,22 @@
 <!--Validation JS-->
 var isValid = false;
 
+function regCheck(object, errorMsg, errorMsg2, regEx, bool) {
+    if (!object.checkValidity()) {
+        //if invalid set error section to display error
+        errorSection.innerHTML += errorMsg;
+        //set test bool to false
+        bool = false;
+    } else if (!object.value.match(regEx)) {
+        errorSection.innerHTML += errorMsg2;
+        bool = false;
+    } else {
+        // else set to true
+        bool = true;
+        //reset error
+    }
+}
+
 function validate() {
 
     var alpha = /^[A-Za-z]+$/;
@@ -18,61 +34,27 @@ function validate() {
     var errorSection = document.getElementById('errorSection')
     errorSection.innerHTML = '';
 
+    var firstEmpty = '<span style="color:red">Enter first name.</span><br>';
+    var firstInvalid = '<span style="color:red">Enter valid first name.</span><br>';
+    var lastEmpty = '<span style="color:red">Enter last name.</span><br>';
+    var lastInvalid = '<span style="color:red">Enter valid last name.</span><br>';
+    var emailEmpty = '<span style="color:red">Enter valid email.</span><br>';
+
     //     ---------FIRST NAME VALIDITY CHECK---------
     //Check validity of first name
-    if (!inpObj.checkValidity()) {
-        //display error
-        errorSection.innerHTML += '<span style="color:red">Enter first name.</span><br>';
-        //set bool to false so form will not submit
-        firstValid = false;
-    } else if (!inpObj.value.match(alpha)) {
-        //display error for entering an invalid first name
-        errorSection.innerHTML += '<span style="color:red">Enter valid first name.</span><br>';
-        //set bool to false so form will not submit
-        firstValid = false;
-    } else {
-        //set true so form will submit
-        firstValid = true;
-        //remove error
-    }
+    regCheck(inpObj, firstEmpty, firstInvalid, alpha, firstValid);
     //     ---------FIRST NAME VALIDITY CHECK ENDS---------
 
 
     //     ---------LAST NAME VALIDITY CHECK---------
     //Check validity of last name
-    if (!lastObj.checkValidity()) {
-        //set error field to error
-        errorSection.innerHTML += '<span style="color:red">Enter last name.</span><br>';
-        //set bool so form will not submit
-        lastValid = false;
-    } else if (!lastObj.value.match(alpha)) {
-        //display error in error field if non-alpha characters are used
-        errorSection.innerHTML += '<span style="color:red">Enter valid last name.</span><br>';
-        //set bool to false to form will not submit
-        lastValid = false;
-    } else {
-        //if all is valid set bool to true so form will submit
-        lastValid = true;
-        //clear error field
-    }
+    regCheck(lastObj, lastEmpty, lastInvalid, alpha, lastValid);
     //     ---------LAST NAME VALIDITY CHECK ENDS---------
 
 
     //     ---------EMAIL VALIDITY CHECK---------
     //check validity of email input (is it an email address)
-    if (!emailObj.checkValidity()) {
-        //if invalid set error section to display error
-        errorSection.innerHTML += '<span style="color:red">Enter valid email.</span><br>';
-        //set test bool to false
-        emailValid = false;
-    } else if (!emailObj.value.match(email)) {
-        errorSection.innerHTML += '<span style="color:red">Enter valid email.</span><br>';
-        emailValid = false;
-    } else {
-        // else set to true
-        emailValid = true;
-        //reset error
-    }
+    regCheck(emailObj, emailEmpty, emailEmpty, email, emailValid);
 //     ---------EMAIL VALIDITY CHECK ENDS---------
 
 //     ---------FINAL VALIDITY CHECK---------
