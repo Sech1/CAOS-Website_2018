@@ -1,0 +1,72 @@
+{% extends 'viewPost.html' %}
+{% load static %}
+
+{% block title %}
+    CAOS - Computer Association of SIUE | CS Social 2018
+{% endblock %}
+
+{% block navbarTitle %}
+    News
+{% endblock %}
+
+{% block navbarCustom %}
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:index' %}">
+                <span><i class="fas fa-home"></i></span>Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:register' %}">
+                <span><i class="fas fa-address-card"></i></span>Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:events' %}">
+                <span><i class="fas fa-calendar-alt"></i></span>Events & Meetings</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:officers' %}">
+                <span><i class="fas fa-users"></i></span>Officers</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:about' %}">
+                <span><i class="fas fa-info-circle"></i></span>About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:contact' %}">
+                <span><i class="fas fa-comment"></i></span>Contact</a>
+        </li>
+    </ul>
+{% endblock %}
+
+{% block articleTitle %}
+    Computer Science Social | 2018
+{% endblock %}
+
+{% block postedBy %}
+    posted by
+    <a href="{% url 'pages:officers' %}">Jared Schooley</a>
+{% endblock %}
+
+{% block dateTime %}
+    Posted on August 23, 2018 at 11:00 PM
+{% endblock %}
+
+{% block articleImage %}
+    <a href="{% static 'img/postImg/poster_png.png' %}" target="_blank">
+    <img class="img-fluid rounded" src="{% static 'img/postImg/eng_building.jpg' %}" alt="">
+    </a>
+{% endblock %}
+
+{% block postContent %}
+    <br>
+    <p>Just a quick reminder to everyone, the SIUE back to school social is tomorrow (Friday, August 23rd at 5:00PM)
+        in the EB building atrium.
+        There will be plenty off food, games, and drinks for everyone.</p>
+    <p>Also prizes, because everyone loves prizes. We ask that if you have a request to play a certain game that you bring them.</p>
+    <p>You can find a copy of the flier below, please let everyone know and spread the word!</p>
+
+    <blockquote class="blockquote">
+        <img class="img-fluid rounded" src="{% static 'img/postImg/poster_png.png' %}">
+    </blockquote>
+    <br>
+{% endblock %}
