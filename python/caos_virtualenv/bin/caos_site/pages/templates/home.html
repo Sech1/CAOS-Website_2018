@@ -22,7 +22,7 @@
         <h2 class="card-title">CAOS | Back to School Social</h2>
         <p class="card-text">Just a reminder to everyone, the back to school social is August 24th, 2018 at 5:00 PM.
                                 Please read the story for more info!</p>
-        <a href="{% url 'pages:mlh_localhost' %}" class="btn btn-primary">Read More
+        <a href="{% url 'pages:cs_social_2018' %}" class="btn btn-primary">Read More
             <span><i class="far fa-caret-square-right"></i></span>
         </a>
     </div>
@@ -77,8 +77,8 @@
 
 {% block pagination %}
 <ul class="pagination justify-content-center mb-4">
-    <li class="page-item disabled">
-        <a class="page-link" href="#"><span><i class="fas fa-long-arrow-alt-left"></i></span> Older</a>
+    <li class="page-item">
+        <a class="page-link" href="{% url 'pages:page0' %}"><span><i class="fas fa-long-arrow-alt-left"></i></span> Older</a>
     </li>
     <li class="page-item disabled">
         <a class="page-link" href="#">Newer <span><i class="fas fa-long-arrow-alt-right"></i></span></a>

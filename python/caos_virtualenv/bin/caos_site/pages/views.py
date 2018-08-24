@@ -17,10 +17,7 @@ def index(request):
     return HttpResponse(template.render(context, request))
 
 def page0(request):
-    template = loader.get_template('post/page0.html')
-    context = {
-    }
-    return HttpResponse(template.render(context, request))
+    return render(request, "post/page0.html")
 
 def news_oci(request):
     return render(request, "postContent/eHacks_oci.html")
@@ -61,3 +58,6 @@ def register(request):
         args['form'] = form
 
     return render(request,'miscPagesContent/registration.html', args)
+
+def csSocial2018(request):
+    return render(request, "postContent/2018_backToSchool_Social")
