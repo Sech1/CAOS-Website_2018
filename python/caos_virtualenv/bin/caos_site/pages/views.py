@@ -59,5 +59,5 @@ def register(request):
 
     return render(request,'miscPagesContent/registration.html', args)
 
-def csSocial2018(request):
+def cssocial2018(request):
     return render(request, "postContent/2018_backToSchool_Social")
