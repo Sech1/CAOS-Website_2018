@@ -52,9 +52,7 @@
 {% endblock %}
 
 {% block articleImage %}
-    <a href="{% static 'img/postImg/poster_psv2.png' %}" target="_blank">
-    <img class="img-fluid rounded" src="{% static 'img/postImg/poster_psv2.png' %}" alt="">
-    </a>
+    <img class="img-fluid rounded" src="{% static 'img/postImg/eng_building.jpg' %}" alt="">
 {% endblock %}
 
 {% block postContent %}
@@ -66,7 +64,9 @@
     <p>You can find a copy of the flier below, please let everyone know and spread the word!</p>
 
     <blockquote class="blockquote">
-        <img class="img-fluid rounded" src="{% static 'img/postImg/poster_png.png' %}">
+        <a href="{% static 'img/postImg/poster_psv2.png' %}" target="_blank">
+            <img class="img-fluid rounded" src="{% static 'img/postImg/poster_psv2.png' %}" alt="">
+        </a>
     </blockquote>
     <br>
 {% endblock %}
