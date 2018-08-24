@@ -60,4 +60,4 @@ def register(request):
     return render(request,'miscPagesContent/registration.html', args)
 
 def cssocial2018(request):
-    return render(request, "postContent/2018_backToSchool_Social")
+    return render(request, "postContent/2018_backToSchool_Social.html")
