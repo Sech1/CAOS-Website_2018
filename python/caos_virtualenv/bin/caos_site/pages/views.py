@@ -5,6 +5,8 @@ from django.template import Context, Template
 from django.shortcuts import get_object_or_404
 from django.http import HttpResponseRedirect
 from django.urls import reverse
+from django.core.mail import send_mail, BadHeaderError
+from django.shortcuts import redirect
 
 from .forms import RegistrationForm
 
