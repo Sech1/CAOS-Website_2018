@@ -44,19 +44,19 @@ function validate() {
 
     //     ---------FIRST NAME VALIDITY CHECK---------
     //Check validity of first name
-    firstValid = regCheck(inpObj, firstEmpty, firstInvalid, alpha, firstValid);
+    firstValid = regCheck(inpObj, firstEmpty, firstInvalid, alpha);
     //     ---------FIRST NAME VALIDITY CHECK ENDS---------
 
 
     //     ---------LAST NAME VALIDITY CHECK---------
     //Check validity of last name
-    lastValid = regCheck(lastObj, lastEmpty, lastInvalid, alpha, lastValid);
+    lastValid = regCheck(lastObj, lastEmpty, lastInvalid, alpha);
     //     ---------LAST NAME VALIDITY CHECK ENDS---------
 
 
     //     ---------EMAIL VALIDITY CHECK---------
     //check validity of email input (is it an email address)
-    emailValid = regCheck(emailObj, emailEmpty, emailEmpty, email, emailValid);
+    emailValid = regCheck(emailObj, emailEmpty, emailEmpty, email);
 //     ---------EMAIL VALIDITY CHECK ENDS---------
 
 //     ---------FINAL VALIDITY CHECK---------
