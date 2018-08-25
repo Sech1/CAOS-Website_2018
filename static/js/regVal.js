@@ -1,20 +1,22 @@
 <!--Validation JS-->
 var isValid = false;
 
-function regCheck(object, errorMsg, errorMsg2, regEx, bool) {
+function regCheck(object, errorMsg, errorMsg2, regEx) {
+    var valid = false;
     if (!object.checkValidity()) {
         //if invalid set error section to display error
         errorSection.innerHTML += errorMsg;
         //set test bool to false
-        bool = false;
+        valid = false;
     } else if (!object.value.match(regEx)) {
         errorSection.innerHTML += errorMsg2;
-        bool = false;
+        valid = false;
     } else {
         // else set to true
-        bool = true;
+        valid = true;
         //reset error
     }
+    return valid;
 }
 
 function validate() {
@@ -23,13 +25,13 @@ function validate() {
     var email =
         /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
 
-    var firstValid = false;
-    var lastValid = false;
-    var emailValid = false;
-
     var inpObj = document.getElementById('id_first');
     var lastObj = document.getElementById('id_last');
     var emailObj = document.getElementById('id_email');
+
+    var firstValid = false;
+    var lastValid = false;
+    var emailValid = false;
 
     var errorSection = document.getElementById('errorSection')
     errorSection.innerHTML = '';
@@ -42,19 +44,19 @@ function validate() {
 
     //     ---------FIRST NAME VALIDITY CHECK---------
     //Check validity of first name
-    regCheck(inpObj, firstEmpty, firstInvalid, alpha, firstValid);
+    firstValid = regCheck(inpObj, firstEmpty, firstInvalid, alpha, firstValid);
     //     ---------FIRST NAME VALIDITY CHECK ENDS---------
 
 
     //     ---------LAST NAME VALIDITY CHECK---------
     //Check validity of last name
-    regCheck(lastObj, lastEmpty, lastInvalid, alpha, lastValid);
+    lastValid = regCheck(lastObj, lastEmpty, lastInvalid, alpha, lastValid);
     //     ---------LAST NAME VALIDITY CHECK ENDS---------
 
 
     //     ---------EMAIL VALIDITY CHECK---------
     //check validity of email input (is it an email address)
-    regCheck(emailObj, emailEmpty, emailEmpty, email, emailValid);
+    emailValid = regCheck(emailObj, emailEmpty, emailEmpty, email, emailValid);
 //     ---------EMAIL VALIDITY CHECK ENDS---------
 
 //     ---------FINAL VALIDITY CHECK---------
@@ -63,6 +65,5 @@ function validate() {
         //set isValid to true
         isValid = true;
     }
-
     return isValid;
 }
