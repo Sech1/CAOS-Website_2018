@@ -7,12 +7,21 @@
 
 body {
     padding-top: 54px;
-    background-color: #CECECE;
+    background-color: #A5A5AF;
 }
 
 a {
     color: #D9B310;
     transition: 0.4s;
+}
+
+.bodyLink a {
+    color: #328CC1;
+    transition: 0.4s;
+}
+
+.bodyLink a:hover {
+    color :#1D2731;
 }
 
 a:hover {
