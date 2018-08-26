@@ -23,7 +23,7 @@ SECRET_KEY = 'wa8brd!zel!jz#lslj2$_l+8xw#oc)3y&ssbc870oya9cglxhf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'caos.cs.siue.edu',]
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'caos.cs.siue.edu', 'www.caos.cs.siue.edu']
 
 
 # Application definition
@@ -141,3 +141,7 @@ EMAIL_USE_TLS = False
 EMAIL_HOST_USER = ''
 EMAIL_HOST_PASSWORD = ''
 EMAIL_PORT = 25
+
+#Security Stuff
+SECURE_SSL_REDIRECT = False
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
