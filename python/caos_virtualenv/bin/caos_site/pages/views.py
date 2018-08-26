@@ -62,7 +62,7 @@ def register(request):
         subject, from_email, to = 'Thanks for registering for CAOS', 'no-reply@caos.cs.siue.edu', emailAdr
         html_content = render_to_string('email.html', {'name': fullName}) # render with dynamic value
         text_content = strip_tags(html_content) # Strip the html tag. So people can see the pure text at least.
-        
+
         if form.is_valid():
             form.save()
             # create the email, and attach the HTML version as well.
