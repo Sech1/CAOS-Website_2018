@@ -7,6 +7,9 @@ from django.http import HttpResponseRedirect
 from django.urls import reverse
 from django.core.mail import send_mail, BadHeaderError
 from django.shortcuts import redirect
+from django.core.mail import EmailMultiAlternatives
+from django.template.loader import render_to_string
+from django.utils.html import strip_tags
 
 from .forms import RegistrationForm
 
@@ -52,8 +55,20 @@ def register(request):
     args = {}
     if request.method == 'POST':
         form = RegistrationForm(request.POST)
+        first = request.POST['first']
+        last = request.POST['last']
+        fullName = first + ' ' + last
+        emailAdr = request.POST['email']
+        subject, from_email, to = 'Thanks for registering for CAOS', 'no-reply@caos.cs.siue.edu', emailAdr
+        html_content = render_to_string('email.html', {'name': fullName}) # render with dynamic value
+        text_content = strip_tags(html_content) # Strip the html tag. So people can see the pure text at least.
+        
         if form.is_valid():
             form.save()
+            # create the email, and attach the HTML version as well.
+            msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
+            msg.attach_alternative(html_content, "text/html")
+            msg.send()
             return HttpResponseRedirect(reverse('pages:success'))
     else:
         form = RegistrationForm()
