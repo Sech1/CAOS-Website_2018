@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee8e0f0b-b6dc-40dc-9d77-6b06fe1be327" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/2018_backToSchool_Social.html" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/2018_backToSchool_Social.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/eHacks_oci.html" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/eHacks_oci.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/mlh_localhost_drb.html" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/mlh_localhost_drb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/weCode_2018.html" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/weCode_2018.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPagesContent/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPagesContent/registration.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +31,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="8" />
-          <entry key="html" value="78" />
+          <entry key="html" value="79" />
           <entry key="js" value="3" />
           <entry key="json" value="1" />
           <entry key="py" value="36" />
@@ -43,7 +40,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="8" />
-          <entry key="HTML" value="78" />
+          <entry key="HTML" value="79" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="3" />
           <entry key="Python" value="36" />
@@ -52,7 +49,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="129" />
-          <entry key="html" value="7424" />
+          <entry key="html" value="7426" />
           <entry key="js" value="733" />
           <entry key="py" value="2978" />
         </counts>
@@ -60,7 +57,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="129" />
-          <entry key="HTML" value="7424" />
+          <entry key="HTML" value="7426" />
           <entry key="JavaScript" value="733" />
           <entry key="Python" value="2978" />
         </counts>
@@ -77,11 +74,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/2018_backToSchool_Social.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="690">
               <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPagesContent/registration.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="82" column="30" lean-forward="true" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,15 +174,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/officers/officerContent.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1151">
-              <caret line="99" column="31" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -223,7 +224,6 @@
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/home.html" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/post/page0.html" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/caos_site/settings.py" />
-        <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPagesContent/registration.html" />
         <option value="$PROJECT_DIR$/static/js/regVal.js" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/views.py" />
         <option value="$PROJECT_DIR$/static/js/homeHTTPS.js" />
@@ -242,6 +242,7 @@
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/weCode_2018.html" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/mlh_localhost_drb.html" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/2018_backToSchool_Social.html" />
+        <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPagesContent/registration.html" />
       </list>
     </option>
   </component>
@@ -414,12 +415,12 @@
       <workItem from="1535088004409" duration="340000" />
       <workItem from="1535124641160" duration="3500000" />
       <workItem from="1535137429653" duration="372000" />
-      <workItem from="1535240202476" duration="8402000" />
+      <workItem from="1535240202476" duration="8491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82286000" />
+    <option name="totallyTimeSpent" value="82375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -589,17 +590,6 @@
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPagesContent/registration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -881,6 +871,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPagesContent/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="82" column="30" lean-forward="true" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
