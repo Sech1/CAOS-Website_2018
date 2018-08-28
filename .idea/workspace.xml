@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee8e0f0b-b6dc-40dc-9d77-6b06fe1be327" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/email.html" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/email.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPages.html" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPages.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/2018_backToSchool_Social.html" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/2018_backToSchool_Social.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/caos_clothing_groupbuy1.html" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/caos_clothing_groupbuy1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/eHacks_oci.html" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/eHacks_oci.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +49,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="136" />
-          <entry key="html" value="9718" />
+          <entry key="html" value="9785" />
           <entry key="js" value="733" />
           <entry key="py" value="3058" />
         </counts>
@@ -62,7 +57,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="136" />
-          <entry key="HTML" value="9718" />
+          <entry key="HTML" value="9785" />
           <entry key="JavaScript" value="733" />
           <entry key="Python" value="3058" />
         </counts>
@@ -127,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/caos_clothing_groupbuy1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="89" column="88" selection-start-line="89" selection-start-column="88" selection-end-line="89" selection-end-column="88" />
+            <state relative-caret-position="618">
+              <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -233,12 +228,12 @@
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/views.py" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/urls.py" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/post/page0.html" />
-        <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/caos_clothing_groupbuy1.html" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/2018_backToSchool_Social.html" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/eHacks_oci.html" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/email.html" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/home.html" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPages.html" />
+        <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/caos_clothing_groupbuy1.html" />
       </list>
     </option>
   </component>
@@ -436,12 +431,12 @@
       <workItem from="1535124641160" duration="3500000" />
       <workItem from="1535137429653" duration="372000" />
       <workItem from="1535240202476" duration="9820000" />
-      <workItem from="1535385387580" duration="2881000" />
+      <workItem from="1535385387580" duration="3084000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86585000" />
+    <option name="totallyTimeSpent" value="86788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -794,8 +789,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/caos_clothing_groupbuy1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="89" column="88" selection-start-line="89" selection-start-column="88" selection-end-line="89" selection-end-column="88" />
+        <state relative-caret-position="618">
+          <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
         </state>
       </provider>
     </entry>
