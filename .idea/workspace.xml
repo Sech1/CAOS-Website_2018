@@ -49,7 +49,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="136" />
-          <entry key="html" value="9826" />
+          <entry key="html" value="9871" />
           <entry key="js" value="733" />
           <entry key="py" value="3058" />
         </counts>
@@ -57,7 +57,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="136" />
-          <entry key="HTML" value="9826" />
+          <entry key="HTML" value="9871" />
           <entry key="JavaScript" value="733" />
           <entry key="Python" value="3058" />
         </counts>
@@ -122,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/caos_clothing_groupbuy1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="698">
-              <caret line="91" column="34" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
+            <state relative-caret-position="467">
+              <caret line="69" column="93" selection-start-line="69" selection-start-column="93" selection-end-line="69" selection-end-column="93" />
               <folding>
                 <element signature="e#3659#3679#0#HTML" expanded="true" />
               </folding>
@@ -448,12 +448,12 @@
       <workItem from="1535124641160" duration="3500000" />
       <workItem from="1535137429653" duration="372000" />
       <workItem from="1535240202476" duration="9820000" />
-      <workItem from="1535385387580" duration="3338000" />
+      <workItem from="1535385387580" duration="3441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87042000" />
+    <option name="totallyTimeSpent" value="87145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -809,8 +809,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/caos_clothing_groupbuy1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="91" column="34" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
+        <state relative-caret-position="467">
+          <caret line="69" column="93" selection-start-line="69" selection-start-column="93" selection-end-line="69" selection-end-column="93" />
           <folding>
             <element signature="e#3659#3679#0#HTML" expanded="true" />
           </folding>
