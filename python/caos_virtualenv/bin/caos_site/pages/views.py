@@ -78,3 +78,6 @@ def register(request):
 
 def cssocial2018(request):
     return render(request, "postContent/2018_backToSchool_Social.html")
+
+def clothingbuy2018(request):
+    return render(request, "postContent/caos_clothing_groupbuy1.html")

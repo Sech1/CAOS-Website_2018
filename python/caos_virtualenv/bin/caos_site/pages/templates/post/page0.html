@@ -15,6 +15,30 @@
 
 {% block post0 %}
     <!-- Blog Post 0 -->
+{% endblock %}
+
+{% block post1 %}
+    <!-- Blog Post 1 -->
+    <div class="card mb-4">
+        <img class="card-img-top" src="{% static 'img/postImg/weCode-email_bulb.jpg' %}"
+             alt="Card image cap" height="250" width="750">
+        <div class="card-body">
+            <h2 class="card-title">High School Students from Across the Region Participate in SIUE WeCode Event</h2>
+            <p class="card-text">More than 30 high school students from across the region developed their own computer program during the Southern
+                Illinois University Edwardsville School of Engineering’s (SOE) WeCode event on Saturday, April 21.</p>
+            <a href="{% url 'pages:weCode_2018' %}" class="btn btn-primary">Read More
+                <span><i class="far fa-caret-square-right"></i></span>
+            </a>
+        </div>
+        <div class="card-footer text-white">
+            Posted on August 19, 2018 at 8:13 PM by<br>
+            <a href="{% url 'pages:officers' %}">Jared Schooley</a>
+        </div>
+    </div>
+{% endblock %}
+
+{% block post2 %}
+    <!-- Blog Post 2 -->
     <div class="card mb-4">
         <img class="card-img-top" src="https://objectcomputing.com/files/5115/1819/1925/ehacks_newspost-8.png"
              alt="Card image cap" height="250" width="750">
@@ -31,14 +55,6 @@
             <a href="{% url 'pages:officers' %}">Jared Schooley</a>
         </div>
     </div>
-{% endblock %}
-
-{% block post1 %}
-    <!-- Blog Post 1 -->
-{% endblock %}
-
-{% block post2 %}
-    <!-- Blog Post 2 -->
 {% endblock %}
 
 {% block pagination %}

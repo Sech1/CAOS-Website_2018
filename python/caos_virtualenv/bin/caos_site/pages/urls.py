@@ -10,6 +10,7 @@ urlpatterns = [
     path('postContent/1', views.mlh_localhost_drb, name='mlh_localhost'),
     path('postContent/2', views.weCode_2018, name='weCode_2018'),
     path('postContent/3', views.cssocial2018, name='cssocial2018'),
+    path('postContent/4', views.clothingbuy2018, name='clothingbuy2018'),
     path('registration/success', views.success, name='success'),
     path('page0/', views.page0, name ='page0'),
     path('events/', views.events, name='events'),
