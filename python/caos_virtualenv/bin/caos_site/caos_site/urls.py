@@ -22,6 +22,6 @@ from django.urls import path
 
 urlpatterns = [
     url(r'^', include(('pages.urls', 'pages'), namespace='pages')),
-    path(r'^admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
     #url(r'^index/', include(("caos_site.views.index", 'index'), namespace='index')),
 ]
