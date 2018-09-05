@@ -12,7 +12,7 @@ class Registration(models.Model):
 class MailText(models.Model):
     subject = models.CharField("Subject", max_length=1000)
     header = models.CharField("Header", max_length=1000)
-    message = models.CharField("Message", max_length=25000)
+    message = models.TextField("Message", max_length=50000)
     send_it = models.BooleanField(default=False) #check it if you want to send your email
 
     def save(self):
