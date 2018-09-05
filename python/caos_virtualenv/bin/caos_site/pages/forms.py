@@ -35,7 +35,7 @@ class RegistrationForm(forms.ModelForm):
         return first
 
     def clean_last(self):
-        last= self.cleaned_data['last']
+        last = self.cleaned_data['last']
         if not last.isalpha():
             return ValidationError('First name must contain only letters')
         return last
