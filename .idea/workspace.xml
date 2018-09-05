@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee8e0f0b-b6dc-40dc-9d77-6b06fe1be327" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/admin/email_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/admin/email_template.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +50,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="136" />
-          <entry key="html" value="9906" />
+          <entry key="html" value="9918" />
           <entry key="js" value="733" />
           <entry key="py" value="3984" />
         </counts>
@@ -58,7 +58,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="136" />
-          <entry key="HTML" value="9906" />
+          <entry key="HTML" value="9918" />
           <entry key="JavaScript" value="733" />
           <entry key="Python" value="3984" />
         </counts>
@@ -84,16 +84,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/admin/email_template.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="346">
-              <caret line="937" column="94" selection-start-line="937" selection-start-column="84" selection-end-line="937" selection-end-column="94" />
+              <caret line="937" column="105" selection-start-line="937" selection-start-column="105" selection-end-line="937" selection-end-column="105" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -108,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/mass_email.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+            <state relative-caret-position="330">
+              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
               <folding>
                 <element signature="e#0#67#0" expanded="true" />
               </folding>
@@ -243,10 +243,10 @@
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/urls.py" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/forms.py" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/admin.py" />
-        <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/admin/email_template.html" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/views.py" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/mass_email.py" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/models.py" />
+        <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/admin/email_template.html" />
       </list>
     </option>
   </component>
@@ -459,12 +459,12 @@
       <workItem from="1535480089377" duration="308000" />
       <workItem from="1535637836153" duration="5000" />
       <workItem from="1536092687309" duration="610000" />
-      <workItem from="1536161465986" duration="9987000" />
+      <workItem from="1536161465986" duration="10672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98129000" />
+    <option name="totallyTimeSpent" value="98814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-880" y="-1440" width="2560" height="1440" extended-state="0" />
@@ -801,29 +801,12 @@
     <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/admin/email_template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="937" column="94" selection-start-line="937" selection-start-column="84" selection-end-line="937" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#12#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -835,18 +818,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/mass_email.py">
+    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           <folding>
-            <element signature="e#0#67#0" expanded="true" />
+            <element signature="e#12#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/models.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -855,6 +838,23 @@
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/mass_email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/admin/email_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="937" column="105" selection-start-line="937" selection-start-column="105" selection-end-line="937" selection-end-column="105" />
         </state>
       </provider>
     </entry>
