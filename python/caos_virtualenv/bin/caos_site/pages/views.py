@@ -14,7 +14,6 @@ from django.contrib import admin
 from django import forms
 
 from .forms import RegistrationForm
-from .forms import SendEmailForm
 
 
 # Create your views here.

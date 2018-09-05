@@ -1,4 +1,6 @@
 from django.core.mail import get_connection, EmailMultiAlternatives
+from django.template.loader import render_to_string
+from django.utils.html import strip_tags
 
 def send_mass_html_mail(subject, email_template, email_context, to_list):
     """
