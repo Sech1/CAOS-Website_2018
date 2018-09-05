@@ -27,8 +27,7 @@ class MailText(models.Model):
             #First you create your list of users
             user_list = []
             test_list = ['jaschoo@siue.edu', 'braburk@siue.edu']
-            for u in Registration.email:
-                user_list.append(u.email)
+            user_list = Registration.objects.values_list('email', flat=True)
 
             #Then you can send the message.
             mass_email.send_mass_html_mail(
