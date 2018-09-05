@@ -26,7 +26,7 @@ class MailText(models.Model):
         if self.send_it:
             #First you create your list of users
             user_list = []
-            test_list = ['jaschoo@siue.edu', 'braburk@siue.edu']
+            test_list = ['jaschoo@siue.edu', 'braburk@siue.edu', 'mramake@siue.edu', 'mibracy@siue.edu']
             user_list = Registration.objects.values_list('email', flat=True)
 
             #Then you can send the message.
