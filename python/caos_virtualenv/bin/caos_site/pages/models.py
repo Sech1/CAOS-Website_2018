@@ -10,9 +10,9 @@ class Registration(models.Model):
     email = models.EmailField()
 
 class MailText(models.Model):
-    subject = models.CharField()
-    header = models.CharField()
-    message = models.CharField()
+    subject = models.CharField("Subject", max_length=1000)
+    header = models.CharField("Header", max_length=1000)
+    message = models.CharField("Message", max_length=25000)
     send_it = models.BooleanField(default=False) #check it if you want to send your email
 
     def save(self):
