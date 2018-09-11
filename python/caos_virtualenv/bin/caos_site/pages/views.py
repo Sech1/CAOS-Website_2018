@@ -61,7 +61,7 @@ def success(request):
     return render(request, "miscPagesContent/success.html")
 
 def csSocialPost(request):
-    return render(request, "postContent/cs_social-2018.html.html")
+    return render(request, "postContent/cs_social-2018.html")
 
 def mlhlocalpost(request):
     return render(request, "postContent/mlhlocalhost_post-2018.html")
