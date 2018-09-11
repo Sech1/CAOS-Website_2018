@@ -60,6 +60,11 @@ def contact(request):
 def success(request):
     return render(request, "miscPagesContent/success.html")
 
+def csSocialPost(request):
+    return render(request, "postContent/2018_backToSchool_Social.html")
+
+def mlhlocalpost(request):
+    return render(request, "postContent/mlhlocalhost_post-2018.html")
 
 def register(request):
     args = {}

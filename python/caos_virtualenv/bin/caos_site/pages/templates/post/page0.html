@@ -15,10 +15,6 @@
 
 {% block post0 %}
     <!-- Blog Post 0 -->
-{% endblock %}
-
-{% block post1 %}
-    <!-- Blog Post 1 -->
     <div class="card mb-4">
         <img class="card-img-top" src="{% static 'img/postImg/weCode-email_bulb.jpg' %}"
              alt="Card image cap" height="250" width="750">
@@ -37,8 +33,8 @@
     </div>
 {% endblock %}
 
-{% block post2 %}
-    <!-- Blog Post 2 -->
+{% block post1 %}
+    <!-- Blog Post 1 -->
     <div class="card mb-4">
         <img class="card-img-top" src="https://objectcomputing.com/files/5115/1819/1925/ehacks_newspost-8.png"
              alt="Card image cap" height="250" width="750">
@@ -55,6 +51,18 @@
             <a href="{% url 'pages:officers' %}">Jared Schooley</a>
         </div>
     </div>
+{% endblock %}
+
+{% block post2 %}
+    <!-- Blog Post 2 -->
+{% endblock %}
+
+{% block post3 %}
+    <!-- Blog Post 3 -->
+{% endblock %}
+
+{% block post4 %}
+    <!-- Blog Post 4 -->
 {% endblock %}
 
 {% block pagination %}

@@ -1,0 +1,104 @@
+{% extends 'viewPost.html' %}
+{% load static %}
+
+{% block title %}
+    CAOS - Computer Association of SIUE | Post MLH Localhost - HTML & CSS
+{% endblock %}
+
+{% block navbarTitle %}
+    News
+{% endblock %}
+
+{% block navbarCustom %}
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:index' %}">
+                <span><i class="fas fa-home"></i></span>Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:register' %}">
+                <span><i class="fas fa-address-card"></i></span>Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:events' %}">
+                <span><i class="fas fa-calendar-alt"></i></span>Events & Meetings</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:officers' %}">
+                <span><i class="fas fa-users"></i></span>Officers</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:about' %}">
+                <span><i class="fas fa-info-circle"></i></span>About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'pages:contact' %}">
+                <span><i class="fas fa-comment"></i></span>Contact</a>
+        </li>
+    </ul>
+{% endblock %}
+
+{% block articleTitle %}
+    MLH Localhost | HTML & CSS | Image Gallery & News
+{% endblock %}
+
+{% block postedBy %}
+    posted by
+    <a class="bodyLink" href="{% url 'pages:officers' %}">Jared Schooley</a>
+{% endblock %}
+
+{% block dateTime %}
+    Posted on September 11, 2018 at 5:40 PM
+{% endblock %}
+
+{% block articleImage %}
+    <img class="img-fluid rounded" src="{% static 'img/postImg/mlh_localhost.PNG' %}" alt="">
+{% endblock %}
+
+{% block postContent %}
+    <p class="lead">The MLH Localhost event went great! We had 37 students show up and complete the project</p>
+    <span>The plan is to have more of these events over the course of the year, we were very happy with the event
+        and turn out.</span>
+
+    <p>We have two more planned this semester, one (interview algorithm prep) on September 26, and another planned
+        for October 24 (Docker). We hope to see all of you there!</p>
+
+    <p>Below you can find a gallery of all the images taken at the MLH event by
+        <a href="{% url 'pages:officers' %}">Dr.Bouvier</a></p>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="{% static 'img/mlh_local_img/0.jpg' %}" alt="0">
+            </div>
+
+            <div class="item">
+                <img src="{% static 'img/mlh_local_img/1.jpg' %}" alt="1">
+            </div>
+
+            <div class="item">
+                <img src="{% static 'img/mlh_local_img/2.jpg' %}" alt="2">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span><i class="fas fa-chevron-circle-left"></i></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span><i class="fas fa-chevron-circle-right"></i></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <br>
+{% endblock %}

@@ -36,6 +36,46 @@
 {% block post1 %}
     <!-- Blog Post 1 -->
     <div class="card mb-4">
+        <img class="card-img-top" src="{% static 'img/postImg/mlh_localhost.PNG' %}"
+             alt="Card image cap" height="250" width="750">
+        <div class="card-body">
+            <h2 class="card-title">MLH Localhost | Pictures & News</h2>
+            <p class="card-text">We had about 37 students show up for the HTML & CSS event.
+            You can find pictures and details on the event inside this article.</p>
+            <a href="{% url 'pages:mlhlocalpost' %}" class="btn btn-primary">Read More
+                <span><i class="far fa-caret-square-right"></i></span>
+            </a>
+        </div>
+        <div class="card-footer text-white">
+            Posted on September 11, 2018 at 5:40 PM by<br>
+            <a href="{% url 'pages:officers' %}">Jared Schooley</a>
+        </div>
+    </div>
+{% endblock %}
+
+{% block post2 %}
+    <!-- Blog Post 2 -->
+    <div class="card mb-4">
+        <img class="card-img-top" src="{% static 'img/postImg/dl_university_red6.bmp' %}"
+             alt="Card image cap" height="250" width="750">
+        <div class="card-body">
+            <h2 class="card-title">CS Social 2018 | Pictures & News</h2>
+            <p class="card-text">The CS social went great, we had about 70 students show up and had a great time!
+                You can find cliff-notes and pictures taken from the event in this article.</p>
+            <a href="{% url 'pages:cssocial2018post' %}" class="btn btn-primary">Read More
+                <span><i class="far fa-caret-square-right"></i></span>
+            </a>
+        </div>
+        <div class="card-footer text-white">
+            Posted on September 11, 2018 at 5:32 PM by<br>
+            <a href="{% url 'pages:officers' %}">Jared Schooley</a>
+        </div>
+    </div>
+{% endblock %}
+
+{% block post3 %}
+    <!-- Blog Post 3 -->
+    <div class="card mb-4">
         <img class="card-img-top" src="{% static 'img/postImg/eng_building.jpg' %}"
              alt="Card image cap" height="250" width="750">
         <div class="card-body">
@@ -53,8 +93,8 @@
     </div>
 {% endblock %}
 
-{% block post2 %}
-    <!-- Blog Post 2 -->
+{% block post4 %}
+    <!-- Blog Post 4 -->
     <div class="card mb-4">
         <img class="card-img-top" src="{% static 'img/postImg/mlh_localhost.PNG' %}"
              alt="Card image cap" height="250" width="750">
