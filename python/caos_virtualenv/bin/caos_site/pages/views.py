@@ -18,6 +18,7 @@ from .forms import RegistrationForm
 
 # Create your views here.
 
+# Main Page
 def index(request):
     template = loader.get_template('home.html')
     context = {
@@ -25,47 +26,62 @@ def index(request):
     return HttpResponse(template.render(context, request))
 
 
+# Second blog posts page, temp until Django auto-gen feature is set up.
 def page0(request):
     return render(request, "post/page0.html")
 
 
+# OCI article page
 def news_oci(request):
     return render(request, "postContent/eHacks_oci.html")
 
 
+# WeCode article page
 def weCode_2018(request):
     return render(request, "postContent/weCode_2018.html")
 
 
+# mlh_HTML&CSS page
 def mlh_localhost_drb(request):
     return render(request, "postContent/mlh_localhost_drb.html")
 
 
+# Events page
 def events(request):
     return render(request, "miscPagesContent/events.html")
 
 
+# Officers display page
 def officers(request):
     return render(request, "officers/officerContent.html")
 
 
+# CAOS About page
 def about(request):
     return render(request, "miscPagesContent/about.html")
 
 
+# Contact Page
 def contact(request):
     return render(request, "miscPagesContent/contact.html")
 
 
+# Redirect after registration submission page
 def success(request):
     return render(request, "miscPagesContent/success.html")
 
+
+# CS social post-event page
 def csSocialPost(request):
     return render(request, "postContent/cs_social-2018.html")
 
+
+# MLH_HTML&CSS post-event page
 def mlhlocalpost(request):
     return render(request, "postContent/mlhlocalhost_post-2018.html")
 
+
+# Register page script
 def register(request):
     args = {}
     if request.method == 'POST':
@@ -92,9 +108,16 @@ def register(request):
     return render(request, 'miscPagesContent/registration.html', args)
 
 
+# 2018 CS social
 def cssocial2018(request):
     return render(request, "postContent/2018_backToSchool_Social.html")
 
 
+# Cloting group buy page
 def clothingbuy2018(request):
     return render(request, "postContent/caos_clothing_groupbuy1.html")
+
+
+# Alum meet news & gallery page
+def alum_meet_2018(request):
+    return render(request, "postContent/alum_meet_2018.html")

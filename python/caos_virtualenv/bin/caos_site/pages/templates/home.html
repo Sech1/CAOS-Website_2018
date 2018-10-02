@@ -36,12 +36,32 @@
 {% block post1 %}
     <!-- Blog Post 1 -->
     <div class="card mb-4">
+        <img class="card-img-top" src="{% static 'img/postImg/askmeanything.jpg' %}"
+             alt="Card image cap" height="250" width="750">
+        <div class="card-body">
+            <h2 class="card-title">Alum AMA | Pictures & News</h2>
+            <p class="card-text">CAOS held a AMA (ask me anything) today (09/12/18) with several alumni from SIUE.
+            Pictures and additional info can be found inside.</p>
+            <a href="{% url 'pages:alum_meet_2018' %}" class="btn btn-primary">Read More
+                <span><i class="far fa-caret-square-right"></i></span>
+            </a>
+        </div>
+        <div class="card-footer text-white">
+            Posted on September 12, 2018 at 6:30 PM by<br>
+            <a href="{% url 'pages:officers' %}">Jared Schooley</a>
+        </div>
+    </div>
+{% endblock %}
+
+{% block post2 %}
+    <!-- Blog Post 2 -->
+    <div class="card mb-4">
         <img class="card-img-top" src="{% static 'img/postImg/mlh_localhost.PNG' %}"
              alt="Card image cap" height="250" width="750">
         <div class="card-body">
             <h2 class="card-title">MLH Localhost | Pictures & News</h2>
             <p class="card-text">We had about 37 students show up for the HTML & CSS event.
-            You can find pictures and details on the event inside this article.</p>
+                You can find pictures and details on the event inside this article.</p>
             <a href="{% url 'pages:mlhlocalpost' %}" class="btn btn-primary">Read More
                 <span><i class="far fa-caret-square-right"></i></span>
             </a>
@@ -53,8 +73,8 @@
     </div>
 {% endblock %}
 
-{% block post2 %}
-    <!-- Blog Post 2 -->
+{% block post3 %}
+    <!-- Blog Post 3 -->
     <div class="card mb-4">
         <img class="card-img-top" src="{% static 'img/postImg/dl_university_red6.bmp' %}"
              alt="Card image cap" height="250" width="750">
@@ -73,8 +93,8 @@
     </div>
 {% endblock %}
 
-{% block post3 %}
-    <!-- Blog Post 3 -->
+{% block post4 %}
+    <!-- Blog Post 4 -->
     <div class="card mb-4">
         <img class="card-img-top" src="{% static 'img/postImg/eng_building.jpg' %}"
              alt="Card image cap" height="250" width="750">
@@ -89,29 +109,6 @@
         <div class="card-footer text-white">
             Posted on August 23, 2018 at 11:00 PM by<br>
             <a href="{% url 'pages:officers' %}">Jared Schooley</a>
-        </div>
-    </div>
-{% endblock %}
-
-{% block post4 %}
-    <!-- Blog Post 4 -->
-    <div class="card mb-4">
-        <img class="card-img-top" src="{% static 'img/postImg/mlh_localhost.PNG' %}"
-             alt="Card image cap" height="250" width="750">
-        <div class="card-body">
-            <h2 class="card-title">MLH Localhost Workshop - 8-29-2018</h2>
-            <p class="card-text">In this beginner level workshop, participants will learn the structure and syntax of
-                basic
-                HTML and CSS. Participants will receive a skeleton of a portfolio website and will update the HTML
-                to include information about themselves and edit the CSS to style and position elements on their page!
-                Then, they’ll deploy their new website.</p>
-            <a href="{% url 'pages:mlh_localhost' %}" class="btn btn-primary">Read More
-                <span><i class="far fa-caret-square-right"></i></span>
-            </a>
-        </div>
-        <div class="card-footer text-white">
-            Posted on August 20, 2018 at 11:28 PM by<br>
-            <a href="{% url 'pages:officers' %}">Dennis J Bouvier, Ph.D.</a>
         </div>
     </div>
 {% endblock %}
