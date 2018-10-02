@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee8e0f0b-b6dc-40dc-9d77-6b06fe1be327" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/alum_meet_2018.html" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/alum_meet_2018.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPages.html" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/viewPost.html" beforeDir="false" afterPath="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/viewPost.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,9 +21,9 @@
     <session id="-1985408508">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
+          <entry key="project.closed" value="23" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="5" />
+          <entry key="project.open.time.10" value="6" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -28,13 +31,13 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="8" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="8" />
-          <entry key="html" value="118" />
+          <entry key="html" value="122" />
           <entry key="js" value="3" />
           <entry key="json" value="1" />
           <entry key="py" value="54" />
@@ -43,7 +46,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="8" />
-          <entry key="HTML" value="118" />
+          <entry key="HTML" value="122" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="3" />
           <entry key="Python" value="54" />
@@ -52,7 +55,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="136" />
-          <entry key="html" value="12587" />
+          <entry key="html" value="12616" />
           <entry key="js" value="733" />
           <entry key="py" value="4684" />
         </counts>
@@ -60,7 +63,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="136" />
-          <entry key="HTML" value="12587" />
+          <entry key="HTML" value="12616" />
           <entry key="JavaScript" value="733" />
           <entry key="Python" value="4684" />
         </counts>
@@ -78,38 +81,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/alum_meet_2018.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/cs_social-2018.html">
+        <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1557">
-              <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/caos_clothing_groupbuy1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1033">
-              <caret line="100" column="9" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/mlhlocalhost_post-2018.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+            <state relative-caret-position="656">
+              <caret line="153" column="24" lean-forward="true" selection-start-line="149" selection-start-column="20" selection-end-line="153" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -126,17 +102,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/eHacks_oci.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
+            <state relative-caret-position="1140">
               <caret line="76" column="61" selection-start-line="76" selection-start-column="61" selection-end-line="76" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="39" column="58" lean-forward="true" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
+            <state relative-caret-position="-417">
+              <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPages.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="581">
+              <caret line="106" column="24" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/viewPost.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="156" column="24" selection-start-line="156" selection-start-column="24" selection-end-line="156" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/email.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="925">
+              <caret line="934" column="108" selection-end-line="1274" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -144,8 +147,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/weCode_2018.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="585">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -162,7 +165,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="165">
               <caret line="15" column="68" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="68" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
@@ -244,14 +247,14 @@
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/mlhlocalhost_post-2018.html" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/cs_social-2018.html" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPagesContent/about.html" />
-        <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/index.html" />
-        <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPages.html" />
-        <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/viewPost.html" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/urls.py" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/views.py" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/post/page0.html" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/home.html" />
         <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/alum_meet_2018.html" />
+        <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/index.html" />
+        <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPages.html" />
+        <option value="$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/viewPost.html" />
       </list>
     </option>
   </component>
@@ -448,18 +451,19 @@
       <workItem from="1536859015298" duration="165000" />
       <workItem from="1536868256631" duration="2000" />
       <workItem from="1537288120523" duration="12000" />
-      <workItem from="1538503028078" duration="1793000" />
+      <workItem from="1538503028078" duration="1900000" />
+      <workItem from="1538515914088" duration="303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111561000" />
+    <option name="totallyTimeSpent" value="111971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2716728" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2747253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -630,13 +634,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/admin/send_email.html" />
-    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/email.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14010">
-          <caret line="934" column="108" selection-end-line="1274" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/admin/email_template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14055">
@@ -685,20 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPages.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/viewPost.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="118" column="24" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1605">
@@ -717,10 +700,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/alum_meet_2018.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2070">
-          <caret line="138" column="20" selection-start-line="138" selection-start-column="20" selection-end-line="141" selection-end-column="24" />
+        <state relative-caret-position="147">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/cs_social-2018.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1905">
+          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/caos_clothing_groupbuy1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="100" column="9" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/mlhlocalhost_post-2018.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/mlh_localhost_drb.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/eHacks_oci.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" column="61" selection-start-line="76" selection-start-column="61" selection-end-line="76" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/weCode_2018.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
@@ -733,7 +758,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="165">
           <caret line="15" column="68" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="68" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
@@ -741,59 +766,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="153" column="24" lean-forward="true" selection-start-line="149" selection-start-column="20" selection-end-line="153" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/miscPages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="106" column="24" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/viewPost.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="156" column="24" selection-start-line="156" selection-start-column="24" selection-end-line="156" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="934" column="108" selection-end-line="1274" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="39" column="58" lean-forward="true" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/weCode_2018.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/eHacks_oci.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="76" column="61" selection-start-line="76" selection-start-column="61" selection-end-line="76" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/caos_clothing_groupbuy1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1033">
-          <caret line="100" column="9" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/cs_social-2018.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1557">
-          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/mlh_localhost_drb.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/mlhlocalhost_post-2018.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/caos_virtualenv/bin/caos_site/pages/templates/postContent/alum_meet_2018.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+        <state relative-caret-position="-417">
+          <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
         </state>
       </provider>
     </entry>
